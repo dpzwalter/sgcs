@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+.container-fluid .row {
+  min-height: 600px; }
+  .container-fluid .row .card {
+    padding: 2rem; }
+    .container-fluid .row .card .card-title {
+      position: absolute;
+      margin-top: -50px;
+      width: 90.5%;
+      color: white;
+      text-align: center;
+      vertical-align: middle;
+      background-color: #236ba3;
+      border: 1px solid transparent;
+      padding: .375rem .75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      border-radius: .25rem; }
+    .container-fluid .row .card form {
+      margin-top: 1em; }
+      .container-fluid .row .card form .btn {
+        background-color: #236ba3;
+        color: white; }
+      .container-fluid .row .card form .account-message {
+        text-align: center; }
+
+.container-fluid .row p .btn {
+  border-radius: 0;
+  border-color: transparent;
+  background-color: white; }
+  .container-fluid .row p .btn img {
+    width: 24px; }
+
+/*# sourceMappingURL=style.css.map */

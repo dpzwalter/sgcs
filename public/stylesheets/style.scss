@@ -1,0 +1,62 @@
+@import 'var';
+
+body {
+    margin : 0;
+    padding: 0;
+    font   : 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    // background-color: ;
+}
+
+.container-fluid {
+    .row {
+        min-height: 600px;
+
+        .card {
+            padding: 2rem;
+
+            .card-title {
+                position        : absolute;
+                margin-top      : -50px;
+                width           : 90.5%;
+                color           : white;
+                text-align      : center;
+                vertical-align  : middle;
+                background-color: $primary;
+                border          : 1px solid transparent;
+                padding         : .375rem .75rem;
+                font-size       : 1rem;
+                line-height     : 1.5;
+                border-radius   : .25rem;
+            }
+
+            form {
+                margin-top: 1em;
+
+                .btn {
+                    background-color: $primary;
+                    color           : white;
+                }
+
+                .account-message {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+.container-fluid {
+    .row {
+        p {
+            .btn {
+                border-radius   : 0;
+                border-color    : transparent;
+                background-color: white;
+
+                img {
+                    width: 24px;
+                }
+            }
+        }
+    }
+}
