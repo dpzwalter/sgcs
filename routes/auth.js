@@ -24,35 +24,35 @@ router.get("/signup", (req, res, next) => {
 });
 
 router.post("/signup", (req, res, next) => {
-    const { username, password, nombre, cedula, telefono, fecha_nacimiento } = req.body;
+    const { username, password/*, nombre, cedula, telefono, fecha_nacimiento*/ } = req.body;
 
-    if (!nombre) {
-        res.json({
-            success: false,
-            message: 'Indicate name'
-        });
-    }
+    // if (!nombre) {
+    //     res.json({
+    //         success: false,
+    //         message: 'Indicate name'
+    //     });
+    // }
 
-    if (!cedula) {
-        res.json({
-            success: false,
-            message: 'Indicate CI'
-        });
-    }
+    // if (!cedula) {
+    //     res.json({
+    //         success: false,
+    //         message: 'Indicate CI'
+    //     });
+    // }
 
-    if (!telefono) {
-        res.json({
-            success: false,
-            message: 'Indicate phone number'
-        });
-    }
+    // if (!telefono) {
+    //     res.json({
+    //         success: false,
+    //         message: 'Indicate phone number'
+    //     });
+    // }
 
-    if (!fecha_nacimiento) {
-        res.json({
-            success: false,
-            message: 'Indicate date of birth'
-        });
-    }
+    // if (!fecha_nacimiento) {
+    //     res.json({
+    //         success: false,
+    //         message: 'Indicate date of birth'
+    //     });
+    // }
 
     if (username === "" || password === "") {
         res.render("auth/signup", { message: "Indicate username and password" });
@@ -71,10 +71,10 @@ router.post("/signup", (req, res, next) => {
         const newUser = new User({
             username,
             password: hashPass,
-            nombre,
-            cedula,
-            telefono,
-            fecha_nacimiento
+            // nombre,
+            // cedula,
+            // telefono,
+            // fecha_nacimiento
         });
 
         newUser.save()
