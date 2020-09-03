@@ -1,0 +1,217 @@
+
+<ReorgSpec>
+<SpecVersion>16_0_7-138086</SpecVersion>
+<Table>
+<TableId>9</TableId>
+<TableName>TareaVersionTarea</TableName>
+<Description>Version Tarea</Description></Table>
+<ReorgCls>c</ReorgCls>
+<ReorgCode>pk</ReorgCode>
+<ReorgMsg>TareaVersionTarea is new</ReorgMsg>
+<ReorgAction>#</ReorgAction>
+<TableAttributes>
+<AttrisInTable>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>IdTarea</AttriName>
+<Description>Id de Tarea</Description>
+<TakesValueFrom>
+<Table>
+<TableId>2</TableId>
+<TableName>Tarea</TableName>
+<Description>Tarea</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>IdTarea</AttriName>
+<Description>Id de Tarea</Description></Attribute></FromValue></TakesValueFrom>
+<OnPrimaryKey>Yes</OnPrimaryKey>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>8</AttriId>
+<AttriName>VersionTarea</AttriName>
+<Description>Version de Tarea</Description>
+<TakesValueFrom>
+<Table>
+<TableId>2</TableId>
+<TableName>Tarea</TableName>
+<Description>Tarea</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>8</AttriId>
+<AttriName>VersionTarea</AttriName>
+<Description>Version de Tarea</Description></Attribute></FromValue></TakesValueFrom>
+<OnPrimaryKey>Yes</OnPrimaryKey>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>FechaVersion</AttriName>
+<Description>Fecha Version</Description>
+<TakesValueFrom>
+<FromValue>
+<Token>ymdtod(</Token>
+<Sp></Sp>
+<Token>1753</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>1</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>1</Token>
+<Token>)</Token></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>D</DataType>
+<Presicion>8</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>25</AttriId>
+<AttriName>ObservacionesVersion</AttriName>
+<Description>Observaciones Version</Description>
+<TakesValueFrom>
+<FromValue>
+<Token>' '</Token></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>C</DataType>
+<Presicion>60</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>NLS</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>26</AttriId>
+<AttriName>Editor</AttriName>
+<Description>Editor</Description>
+<TakesValueFrom>
+<FromValue>
+<Token>' '</Token></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>C</DataType>
+<Presicion>20</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>NLS</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute></AttrisInTable>
+<AttrisNoLongerInTable></AttrisNoLongerInTable>
+<AttrisInManyTables></AttrisInManyTables></TableAttributes>
+<TableIndices>
+<Indices>
+<Index>
+<IndexName>ITAREAVERSIONTAREA</IndexName>
+<IndexType>u</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>IdTarea</AttriName>
+<Description>Id de Tarea</Description></Attribute>
+<Attribute>
+<AttriId>8</AttriId>
+<AttriName>VersionTarea</AttriName>
+<Description>Version de Tarea</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>Yes</Clustered></Index></Indices></TableIndices>
+<FKConstraints>
+<FKConstraint>
+<ChangeType>none</ChangeType>
+<Table>
+<TableId>2</TableId>
+<TableName>Tarea</TableName>
+<Description>Tarea</Description></Table>
+<Attributes>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>IdTarea</AttriName>
+<Description>Id de Tarea</Description></Attribute></Attributes></FKConstraint></FKConstraints>
+<Statements>
+<Statement>CREATE TABLE [TareaVersionTarea] ([IdTarea] smallint NOT NULL , [VersionTarea] smallint NOT NULL , [FechaVersion] datetime NOT NULL , [ObservacionesVersion] nchar(60) NOT NULL , [Editor] nchar(20) NOT NULL , PRIMARY KEY([IdTarea], [VersionTarea])) </Statement>
+<Statement>INSERT INTO [TareaVersionTarea] ([IdTarea], [VersionTarea], [FechaVersion], [ObservacionesVersion], [Editor]) SELECT [IdTarea], [VersionTarea], convert( DATETIME, '17530101', 112 ), '', '' FROM [Tarea] T  WHERE NOT EXISTS (SELECT 1 FROM [TareaVersionTarea] WHERE IdTarea= T.IdTarea AND VersionTarea= T.VersionTarea)</Statement>
+<Statement>ALTER TABLE [TareaVersionTarea] ADD CONSTRAINT [ITAREAVERSIONTAREA1] FOREIGN KEY ([IdTarea]) REFERENCES [Tarea] ([IdTarea])</Statement></Statements>
+<NeedReorganizationProgram>False</NeedReorganizationProgram>
+<Warnings>
+<Warning>
+<MsgCode>rgz0007</MsgCode>
+<Message>
+<Token>Attribute </Token>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>FechaVersion</AttriName>
+<Description>Fecha Version</Description></Attribute>
+<Token> does not allow nulls and does not have an Initial Value. An empty default value will be used.</Token></Message></Warning>
+<Warning>
+<MsgCode>rgz0007</MsgCode>
+<Message>
+<Token>Attribute </Token>
+<Attribute>
+<AttriId>25</AttriId>
+<AttriName>ObservacionesVersion</AttriName>
+<Description>Observaciones Version</Description></Attribute>
+<Token> does not allow nulls and does not have an Initial Value. An empty default value will be used.</Token></Message></Warning>
+<Warning>
+<MsgCode>rgz0007</MsgCode>
+<Message>
+<Token>Attribute </Token>
+<Attribute>
+<AttriId>26</AttriId>
+<AttriName>Editor</AttriName>
+<Description>Editor</Description></Attribute>
+<Token> does not allow nulls and does not have an Initial Value. An empty default value will be used.</Token></Message></Warning></Warnings>
+<Errors></Errors></ReorgSpec>
