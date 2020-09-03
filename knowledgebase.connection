@@ -1,0 +1,10 @@
+﻿<ConnectionInformation>
+	<DBName>GX_KB_SGCS_2</DBName>
+	<IntegratedSecurity>True</IntegratedSecurity>
+	<ServerInstance>DESKTOP-ET90U16</ServerInstance>
+	<CreateDbInKbFolder>True</CreateDbInKbFolder>
+	<Directory>C:\Models\SGCS</Directory>
+	<DataFile>GX_KB_SGCS.mdf</DataFile>
+	<LogFile>GX_KB_SGCS_log.ldf</LogFile>
+	<HostName>DESKTOP-ET90U16</HostName>
+</ConnectionInformation>
