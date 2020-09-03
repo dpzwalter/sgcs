@@ -1,0 +1,173 @@
+
+<ObjectSpec>
+<SpecVersion>16_0_10-142546</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>15</ObjId>
+<ObjName>ProcedureStatus</ObjName>
+<ObjDesc>Procedure Status</ObjDesc>
+<ObjPgmName>ProcedureStatus</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0060</MsgCode>
+<Message>
+<Token>The program may be called by another program and the Commit on Exit property is set to YES</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Idlineabase</VarId>
+<VarName>&amp;IdLineaBase</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>8</TableId>
+<TableName>TareasLB</TableName>
+<Description>Id</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>21</AttriId>
+<AttriName>IdLineaBase</AttriName>
+<Description>Id Linea Base</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ILINEABASEID</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>21</AttriId>
+<AttriName>IdLineaBase</AttriName>
+<Description>Id Linea Base</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Idlineabase</VarId>
+<VarName>&amp;IdLineaBase</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>21</AttriId>
+<AttriName>IdLineaBase</AttriName>
+<Description>Id Linea Base</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Idlineabase</VarId>
+<VarName>&amp;IdLineaBase</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>8</TableId>
+<TableName>TareasLB</TableName>
+<Description>Id</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>21</AttriId>
+<AttriName>IdLineaBase</AttriName>
+<Description>Id Linea Base</Description></Attribute>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>IdTarea</AttriName>
+<Description>Id de Tarea</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels>
+<Level>
+<LevelNumber>3</LevelNumber>
+<Optimizations>
+<Optimization>
+<Type>Update</Type></Optimization></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>3</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>2</TableId>
+<TableName>Tarea</TableName>
+<Description>Tarea</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>IdTarea</AttriName>
+<Description>Id de Tarea</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ITAREA</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>IdTarea</AttriName>
+<Description>Id de Tarea</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>@IdTarea</AttriName>
+<Description>Id de Tarea</Description></Attribute></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>IdTarea</AttriName>
+<Description>Id de Tarea</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>@IdTarea</AttriName>
+<Description>Id de Tarea</Description></Attribute></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>2</TableId>
+<TableName>Tarea</TableName>
+<Description>Tarea</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>IdTarea</AttriName>
+<Description>Id de Tarea</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>2</TableId>
+<TableName>Tarea</TableName>
+<Description>Tarea</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>23</AttriId>
+<AttriName>StatusTarea</AttriName>
+<Description>Status Tarea</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></Level></Levels></ObjectSpec>

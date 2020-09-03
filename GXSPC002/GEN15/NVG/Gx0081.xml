@@ -1,0 +1,123 @@
+
+<ObjectSpec>
+<SpecVersion>16_0_10-142546</SpecVersion>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>97</ObjId>
+<ObjName>Gx0081</ObjName>
+<ObjDesc>Selection List Id</ObjDesc>
+<ObjPgmName>Gx0081</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Pidlineabase</VarId>
+<VarName>&amp;pIdLineaBase</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Pidtarea</VarId>
+<VarName>&amp;pIdTarea</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>'Toggle'</EventName></Event>
+<Event>
+<EventName>Lblidtareafilter.Click</EventName></Event>
+<Event>
+<EventName>Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>0</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>8</TableId>
+<TableName>TareasLB</TableName>
+<Description>Id</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>21</AttriId>
+<AttriName>IdLineaBase</AttriName>
+<Description>Id Linea Base</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>IdTarea</AttriName>
+<Description>Id de Tarea</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ILINEABASEID</IndexName>
+<LevelOptions></LevelOptions>
+<Optimizations>
+<Optimization>
+<Type>ServerPaging</Type></Optimization></Optimizations>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>21</AttriId>
+<AttriName>IdLineaBase</AttriName>
+<Description>Id Linea Base</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Pidlineabase</VarId>
+<VarName>&amp;pIdLineaBase</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>IdTarea</AttriName>
+<Description>Id de Tarea</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cidtarea</VarId>
+<VarName>&amp;cIdTarea</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>21</AttriId>
+<AttriName>IdLineaBase</AttriName>
+<Description>Id Linea Base</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Pidlineabase</VarId>
+<VarName>&amp;pIdLineaBase</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>8</TableId>
+<TableName>TareasLB</TableName>
+<Description>Id</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>21</AttriId>
+<AttriName>IdLineaBase</AttriName>
+<Description>Id Linea Base</Description></Attribute>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>IdTarea</AttriName>
+<Description>Id de Tarea</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Event>
+<EventName>Enter</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

@@ -1,0 +1,439 @@
+
+<ObjectSpec>
+<SpecVersion>16_0_10-142546</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>2</ObjId>
+<ObjName>Tarea</ObjName>
+<ObjDesc>Tarea</ObjDesc>
+<ObjPgmName>Tarea</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Mode</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Idtarea</VarId>
+<VarName>&amp;IdTarea</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>2</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>2</TableId>
+<TableName>Tarea</TableName>
+<Description>Tarea</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>2</TableId>
+<TableName>Tarea</TableName>
+<Description>Tarea</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>IdTarea</AttriName>
+<Description>Id de Tarea</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>1</TableId>
+<TableName>Proyecto</TableName>
+<Description>Proyecto</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>IdProyecto</AttriName>
+<Description>Id de Proyecto</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>3</TableId>
+<TableName>Prioridad</TableName>
+<Description>Prioridad</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>IdPrioridad</AttriName>
+<Description>Id de Prioridad</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>5</TableId>
+<TableName>Fase</TableName>
+<Description>Fase</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>IdFase</AttriName>
+<Description>Id Fase</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>6</TableId>
+<TableName>EstadoTarea</TableName>
+<Description>Estado Tarea</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>IdEstadoTarea</AttriName>
+<Description>Id Estado Tarea</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>2</TableId>
+<TableName>Tarea</TableName>
+<Description>Tarea</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>IdPadre</AttriName>
+<Description>Id Padre</Description></Attribute></KeyAttributes>
+<JoinType>Outer</JoinType>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>2</TableId>
+<TableName>Tarea</TableName>
+<Description>Tarea</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>NombreTarea</AttriName>
+<Description>Nombre de Tarea</Description></Attribute>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>DescripcionTarea</AttriName>
+<Description>Descripcion de Tarea</Description></Attribute>
+<Attribute>
+<AttriId>23</AttriId>
+<AttriName>StatusTarea</AttriName>
+<Description>Status Tarea</Description></Attribute>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>IdProyecto</AttriName>
+<Description>Id de Proyecto</Description></Attribute>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>IdPrioridad</AttriName>
+<Description>Id de Prioridad</Description></Attribute>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>IdFase</AttriName>
+<Description>Id Fase</Description></Attribute>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>IdEstadoTarea</AttriName>
+<Description>Id Estado Tarea</Description></Attribute>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>IdPadre</AttriName>
+<Description>Id Padre</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>2</TableId>
+<TableName>Tarea</TableName>
+<Description>Tarea</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>NombreTarea</AttriName>
+<Description>Nombre de Tarea</Description></Attribute>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>DescripcionTarea</AttriName>
+<Description>Descripcion de Tarea</Description></Attribute>
+<Attribute>
+<AttriId>23</AttriId>
+<AttriName>StatusTarea</AttriName>
+<Description>Status Tarea</Description></Attribute>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>IdProyecto</AttriName>
+<Description>Id de Proyecto</Description></Attribute>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>IdPrioridad</AttriName>
+<Description>Id de Prioridad</Description></Attribute>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>IdFase</AttriName>
+<Description>Id Fase</Description></Attribute>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>IdEstadoTarea</AttriName>
+<Description>Id Estado Tarea</Description></Attribute>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>IdPadre</AttriName>
+<Description>Id Padre</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>2</TableId>
+<TableName>Tarea</TableName>
+<Description>Tarea</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>2</TableId>
+<TableName>Tarea</TableName>
+<Description>Tarea</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>IdPadre</AttriName>
+<Description>Id Padre</Description></Attribute></KeyAttributes></Table>
+<Table>
+<TableId>8</TableId>
+<TableName>TareasLB</TableName>
+<Description>Id</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>IdTarea</AttriName>
+<Description>Id de Tarea</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>9</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>9</TableId>
+<TableName>TareaVersionTarea</TableName>
+<Description>Version Tarea</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>9</TableId>
+<TableName>TareaVersionTarea</TableName>
+<Description>Version Tarea</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>IdTarea</AttriName>
+<Description>Id de Tarea</Description></Attribute>
+<Attribute>
+<AttriId>8</AttriId>
+<AttriName>VersionTarea</AttriName>
+<Description>Version de Tarea</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>9</TableId>
+<TableName>TareaVersionTarea</TableName>
+<Description>Version Tarea</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>IdTarea</AttriName>
+<Description>Id de Tarea</Description></Attribute>
+<Attribute>
+<AttriId>8</AttriId>
+<AttriName>VersionTarea</AttriName>
+<Description>Version de Tarea</Description></Attribute>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>FechaVersion</AttriName>
+<Description>Fecha Version</Description></Attribute>
+<Attribute>
+<AttriId>25</AttriId>
+<AttriName>ObservacionesVersion</AttriName>
+<Description>Observaciones Version</Description></Attribute>
+<Attribute>
+<AttriId>26</AttriId>
+<AttriName>Editor</AttriName>
+<Description>Editor</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>9</TableId>
+<TableName>TareaVersionTarea</TableName>
+<Description>Version Tarea</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>FechaVersion</AttriName>
+<Description>Fecha Version</Description></Attribute>
+<Attribute>
+<AttriId>25</AttriId>
+<AttriName>ObservacionesVersion</AttriName>
+<Description>Observaciones Version</Description></Attribute>
+<Attribute>
+<AttriId>26</AttriId>
+<AttriName>Editor</AttriName>
+<Description>Editor</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>9</TableId>
+<TableName>TareaVersionTarea</TableName>
+<Description>Version Tarea</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>9</TableId>
+<TableName>TareaVersionTarea</TableName>
+<Description>Version Tarea</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>105</ObjId>
+<ObjName>Gx0091</ObjName>
+<ObjPgmName>Gx0091</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>IdTarea</AttriName>
+<Description>Id de Tarea</Description></Attribute></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>8</AttriId>
+<AttriName>VersionTarea</AttriName>
+<Description>Version de Tarea</Description></Attribute></OutputParameters>
+<PromptType>User</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>2</TableId>
+<TableName>Tarea</TableName>
+<Description>Tarea</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>10</ObjId>
+<ObjName>Gx0020</ObjName>
+<ObjPgmName>Gx0020</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>IdPadre</AttriName>
+<Description>Id Padre</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>6</TableId>
+<TableName>EstadoTarea</TableName>
+<Description>Estado Tarea</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>34</ObjId>
+<ObjName>Gx0060</ObjName>
+<ObjPgmName>Gx0060</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>IdEstadoTarea</AttriName>
+<Description>Id Estado Tarea</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>5</TableId>
+<TableName>Fase</TableName>
+<Description>Fase</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>11</ObjId>
+<ObjName>Gx0050</ObjName>
+<ObjPgmName>Gx0050</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>IdFase</AttriName>
+<Description>Id Fase</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>3</TableId>
+<TableName>Prioridad</TableName>
+<Description>Prioridad</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>9</ObjId>
+<ObjName>Gx0030</ObjName>
+<ObjPgmName>Gx0030</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>IdPrioridad</AttriName>
+<Description>Id de Prioridad</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>1</TableId>
+<TableName>Proyecto</TableName>
+<Description>Proyecto</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>7</ObjId>
+<ObjName>Gx0010</ObjName>
+<ObjPgmName>Gx0010</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>IdProyecto</AttriName>
+<Description>Id de Proyecto</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>
