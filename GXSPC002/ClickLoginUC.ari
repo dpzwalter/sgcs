@@ -1,0 +1,31 @@
+usercontrol_directory_i('clickloginuc', ['UserControls']).
+usercontrol_i('clickloginuc', ['ClickLoginUC','Clickloginuc']).
+usercontrol_property_mapping_i('clickloginuc', 'Class', 'Class', 'Class', char, 0, any).
+usercontrol_property_mapping_i('clickloginuc', 'Enabled', 'Enabled', 'Enabled', boolean, 0, any).
+usercontrol_property_mapping_i('clickloginuc', 'UserControlType', 'Usercontroltype', 'Usercontroltype', char, 1, any).
+usercontrol_property_mapping_i('clickloginuc', 'ConstructorName', 'Constructorname', 'Constructorname', char, 1, any).
+usercontrol_property_mapping_i('clickloginuc', 'ShowMethodName', 'Showmethodname', 'Showmethodname', char, 1, any).
+usercontrol_property_mapping_i('clickloginuc', 'ControlName', 'Controlname', 'Controlname', char, 1, any).
+usercontrol_property_mapping_i('clickloginuc', 'rutakb', 'Rutakb', 'Rutakb', char, 0, any).
+usercontrol_property_mapping_i('clickloginuc', 'image', 'Image', 'Image', char, 0, any).
+usercontrol_property_mapping_i('clickloginuc', 'titulo', 'Titulo', 'Titulo', char, 0, any).
+usercontrol_property_mapping_i('clickloginuc', 'erroremail', 'Erroremail', 'Erroremail', char, 0, any).
+usercontrol_property_mapping_i('clickloginuc', 'inputusuario', 'Inputusuario', 'Inputusuario', char, 0, any).
+usercontrol_property_mapping_i('clickloginuc', 'errorpassword', 'Errorpassword', 'Errorpassword', char, 0, any).
+usercontrol_property_mapping_i('clickloginuc', 'inputpassword', 'Inputpassword', 'Inputpassword', char, 0, any).
+usercontrol_property_mapping_i('clickloginuc', 'alertamsg', 'Alertamsg', 'Alertamsg', char, 0, any).
+usercontrol_property_mapping_i('clickloginuc', 'textomsgalert', 'Textomsgalert', 'Textomsgalert', char, 0, any).
+usercontrol_property_mapping_i('clickloginuc', 'textbutton', 'Textbutton', 'Textbutton', char, 0, any).
+usercontrol_property_mapping_i('clickloginuc', 'forgot1', 'Forgot1', 'Forgot1', char, 0, any).
+usercontrol_property_mapping_i('clickloginuc', 'linkforgot', 'Linkforgot', 'Linkforgot', char, 0, any).
+usercontrol_property_mapping_i('clickloginuc', 'forgot2', 'Forgot2', 'Forgot2', char, 0, any).
+usercontrol_property_mapping_i('clickloginuc', 'linkcreateaccount', 'Linkcreateaccount', 'Linkcreateaccount', char, 0, any).
+usercontrol_property_mapping_i('clickloginuc', 'createaccount', 'Createaccount', 'Createaccount', char, 0, any).
+usercontrol_property_mapping_i('clickloginuc', 'varusuario', 'Varusuario', 'Varusuario', char, 0, any).
+usercontrol_property_mapping_i('clickloginuc', 'varpassword', 'Varpassword', 'Varpassword', char, 0, any).
+usercontrol_property_mapping_i('clickloginuc', 'Visible', 'Visible', 'Visible', boolean, 0, any).
+usercontrol_property_mapping_i('clickloginuc', 'CssSupportFiles', 'Csssupportfiles', 'Csssupportfiles', char, 1, any).
+usercontrol_property_mapping_i('clickloginuc', 'JsSupportFiles', 'Jssupportfiles', 'Jssupportfiles', char, 1, any).
+usercontrol_property_mapping_i('clickloginuc', 'CssSharedSupportFiles', 'Csssharedsupportfiles', 'Csssharedsupportfiles', char, 1, any).
+usercontrol_property_mapping_i('clickloginuc', 'JsSharedSupportFiles', 'Jssharedsupportfiles', 'Jssharedsupportfiles', char, 1, any).
+usercontrol_event_mapping_i('clickloginuc', 'Click', 'click').

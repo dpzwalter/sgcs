@@ -1,0 +1,647 @@
+spec_i([ web,110,'Login','Login',0,eng,'16_0_10-142546' ]).
+ 
+struct_i(2,1,[ 'Vusuid','Vruta','Vimage' ],[]).
+struct_i(3,2,[],[]).
+ 
+level_i(2,[ 0,[],[],[],[],[],[],[],[],[] ]).
+level_i(3,[ 15,[ [ 15,many ] ],[],[],[ [ [ 15 ],[ 32,37 ] ] ],[ [ [ 15 ],[] ] ],[ 32 ],'',[ 15,[ [ [],'Vusuario',32 ] ] ],[] ]).
+ 
+tw_i(2,[]).
+tw_i(3,[]).
+ 
+lwi_i(2,[ [] ]).
+lwi_i(3,[ [ c([ t(37,2),t(=,10),t('Vpassword',23) ],[ 37 ]) ] ]).
+ 
+ 
+ 
+level_option_i(3,usr_condition,y).
+level_option_i(3,when_none,'GXLvl30').
+ 
+ta_i(2,[ [] ]).
+ta_i(3,[ [ [ 15,32 ],[ 15,37 ] ] ]).
+ 
+las_i(2,[ [ 'Vusuario','Vpassword' ] ]).
+las_i(3,[ [ 'Vusuario','Vpassword',32,37 ] ]).
+ 
+lac_i(2,[ [ 'Vusuario','Vpassword' ] ]).
+lac_i(3,[ [ 'Vusuario','Vpassword' ] ]).
+ 
+ 
+ 
+cls_i([ 0,0 ],[ 0,99 ]).
+ 
+pos_i('Vusuario',[ 0,0,0 ]).
+pos_i('Vpassword',[ 0,0,0 ]).
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS','ÖmZ]atπWêd¡xe∆rv')).
+rule_i(0,datastore(2,'CC_USER_ID',uQBYYB1GlZ9vU8Jf)).
+rule_i(0,datastore(2,'CC_SERVER','trialapps3.genexus.com')).
+rule_i(0,datastore(2,'CC_DBNAME','Id0a061a7d5fed074419778f6b67627b48')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','uQ⁄<EaÍ@‚øÃ7J^ÍAÜY⁄HÃTV')).
+rule_i(0,datastore(2,'USER_ID',uQBYYB1GlZ9vU8Jf)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','trialapps3.genexus.com')).
+rule_i(0,datastore(2,'CS_DBNAME','Id0a061a7d5fed074419778f6b67627b48')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','ÖmZ]atπWêd¡xe∆rv')).
+rule_i(0,datastore(1,'CC_USER_ID',uQBYYB1GlZ9vU8Jf)).
+rule_i(0,datastore(1,'CC_SERVER','trialapps3.genexus.com')).
+rule_i(0,datastore(1,'CC_DBNAME','Id0a061a7d5fed074419778f6b67627b48')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','uQ⁄<EaÍ@‚øÃ7J^ÍAÜY⁄HÃTV')).
+rule_i(0,datastore(1,'USER_ID',uQBYYB1GlZ9vU8Jf)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','trialapps3.genexus.com')).
+rule_i(0,datastore(1,'CS_DBNAME','Id0a061a7d5fed074419778f6b67627b48')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','Login')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Secure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebUX','COMPATIBLE')).
+rule_i(0,prop('STD_FUNC_OBJECT','No')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','')).
+rule_i(0,prop('AppGenerator','1')).
+rule_i(0,prop('AppLocation','')).
+rule_i(0,prop('WebApplication',idDefault)).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','-1')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'Carmine'))).
+rule_i(0,prop('Folder',o(120,'Root Module'))).
+rule_i(0,prop('ObjDesc','Login')).
+rule_i(0,prop('ObjName','Login')).
+rule_i(0,maingen(15)).
+rule_i(0,prop('PGMTYPE',main)).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,3,t,15,[],[ [ [ [],'Vusuario',32 ] ],'',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,'Vusuario').
+v_i(t,o,2,32).
+v_i(t,o,2,37).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i(42,[ 'UsuarioID',int,4,0,'ZZZ9',0,'Usuario ID','',0 ]).
+attri_i(37,[ 'UsuCla',char,20,0,'',0,'Usu Cla','',0 ]).
+attri_i(32,[ 'UsuID',svchar,40,0,'',0,'Usu ID','',0 ]).
+attri_i('GXLvl30',[ 'GXLvl30',int,1,0,'',0,'',[],17 ]).
+attri_i('Vimage_GXI',[ 'Vimage_GXI',svchar,2048,0,'',0,'',[],16 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',15 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',14 ]).
+attri_i('Websession',[ 'WebSession',o(websession),4,0,'',0,'Web Session','',13 ]).
+attri_i('Vusuid',[ vUsuId,svchar,40,0,'',0,'Usu ID','',12 ]).
+attri_i('Vusuario',[ vUsuario,svchar,100,0,'',0,'v Usuario','',11 ]).
+attri_i('Vruta',[ vRuta,svchar,4000,0,'',0,'v Ruta','',10 ]).
+attri_i('Vpassword',[ vPassword,svchar,40,0,'',0,'v Password','',9 ]).
+attri_i('Vimage',[ vImage,bits,1024,0,'',0,'v Image','',8 ]).
+attri_i('Vemail',[ vEmail,svchar,100,0,'',0,'v Email','',7 ]).
+attri_i('Httprequest',[ 'HttpRequest',o(httprequest),4,0,'',0,'Http Request','',6 ]).
+attri_i('Ban',[ ban,int,4,0,'ZZZ9',0,ban,'',5 ]).
+ 
+table_i(15,[ 'Usuario',[ 42,32,37 ],'Usuario','Usuario' ]).
+ 
+index_i(15,[ '',a,[ 32 ],'' ]).
+index_i(15,[ 'IUSUARIO',u,[ 42 ],'IUsuario' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+add_att_i(bits,2,'Vimage_GXI','Vimage','Vimage_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,2,40000,33,'UsuImg_GXI',[ svchar,2048,0,0 ]).
+ 
+ 
+ 
+ 
+start_i(3,0,0,[ [ [ 32,23,'Vusuario',= ] ],many ]).
+ 
+end_i(3,0,0,[ [ [ t(32,2),t(=,10),t('Vusuario',23) ] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(33,[ 'GeneXus\Email' ]).
+ 
+ 
+break_i(3,nvg,2,[ 32 ],[ [ 32 ],[ 32,37 ],[] ]).
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,1).
+b_group_i(2,2,lit,0,2,26).
+b_group_i(2,3,lit,0,27,2).
+b_group_i(2,4,nvg,3,30,30).
+b_group_i(3,1,lit,0,31,31).
+b_group_i(2,5,lit,0,36,0).
+ 
+b_line_i(1,2,1,cmd,1,[ t('',146,1,0),t('Start',3,1,7) ]).
+b_line_i(2,2,2,cmd,1,[ t('',107,2,0),t('Vusuid',23,1,0),t(=,10,1,0),t([ t('Websession',23,1,0),t('get(',1,1,0) ],31,1,0),t('"USULOG"',3,1,0),t(')',4,1,0) ]).
+b_line_i(3,2,2,cmd,1,[ t('',109,3,0),t('.NOT.',8,1,5),t('null(',1,3,19),t('Vusuid',23,1,11),t(')',4,1,28) ]).
+b_line_i(4,2,2,cmd,1,[ t('',104,4,0),t(o(13,'Dashboard'),28,1,3) ]).
+b_line_i(5,2,2,cmd,1,[ t('',111,5,0) ]).
+b_line_i(6,2,2,cmd,1,[ t('',107,6,0),t('Vruta',23,1,0),t(=,10,1,0),t([ t('Httprequest',23,1,0),t('Baseurl',3,1,0) ],29,1,0) ]).
+b_line_i(7,2,2,cmd,1,[ t('',107,7,0),t([ t('Vimage',23,7,2),t('fromimage(',1,7,10) ],31,7,2),t(i(98,'7b718545-8ca4-404f-9e28-33f7ca2835e8'),69,1,21),t(')',4,1,30) ]).
+b_line_i([ 7,1 ],2,2,cmd,1,[ t('',107,7,0),t('Vimage_GXI',23,1,0),t(=,10,1,0),t('urifromurl(',1,1,0),t(i(98,'7b718545-8ca4-404f-9e28-33f7ca2835e8'),69,1,0),t(')',4,1,0) ]).
+b_line_i(8,2,2,cmd,2,[ t('',107,8,0),t([ t('Clickloginuc1',3,2,0),t('Image',3,2,0) ],29,2,0),t(=,10,2,0),t('Vimage_GXI',23,2,0) ]).
+b_line_i(9,2,2,cmd,2,[ t('',107,9,0),t([ t('Clickloginuc1',3,2,0),t('Titulo',3,2,0) ],29,2,0),t(=,10,2,0),t('"SGCS-Soft"',3,2,0) ]).
+b_line_i(10,2,2,cmd,2,[ t('',107,10,0),t([ t('Clickloginuc1',3,2,0),t('Erroremail',3,2,0) ],29,2,0),t(=,10,2,0),t('"Escribir email asociado"',3,2,0) ]).
+b_line_i(11,2,2,cmd,2,[ t('',107,11,0),t([ t('Clickloginuc1',3,2,0),t('Errorpassword',3,2,0) ],29,2,0),t(=,10,2,0),t('"Escribir contraseÒa"',3,2,0) ]).
+b_line_i(12,2,2,cmd,2,[ t('',107,12,0),t([ t('Clickloginuc1',3,2,0),t('Textbutton',3,2,0) ],29,2,0),t(=,10,2,0),t('"Ingresar"',3,2,0) ]).
+b_line_i(13,2,2,cmd,2,[ t('',107,13,0),t([ t('Clickloginuc1',3,2,0),t('Linkcreateaccount',3,2,0) ],29,2,0),t(=,10,2,0),t('link(',1,2,0),t(o(13,'WWMenu'),28,2,0),t(')',4,2,0) ]).
+b_line_i(14,2,2,cmd,2,[ t('',107,14,0),t([ t('Clickloginuc1',3,2,0),t('Linkforgot',3,2,0) ],29,2,0),t(=,10,2,0),t('link(',1,2,0),t(o(13,'WWMenu'),28,2,0),t(')',4,2,0) ]).
+b_line_i(15,2,2,cmd,2,[ t('',107,15,0),t([ t('Clickloginuc1',3,2,0),t('Createaccount',3,2,0) ],29,2,0),t(=,10,2,0),t('"Registrarse"',3,2,0) ]).
+b_line_i(16,2,2,cmd,2,[ t('',107,16,0),t([ t('Clickloginuc1',3,2,0),t('Forgot1',3,2,0) ],29,2,0),t(=,10,2,0),t('"Se me olvido "',3,2,0) ]).
+b_line_i(17,2,2,cmd,2,[ t('',107,17,0),t([ t('Clickloginuc1',3,2,0),t('Forgot2',3,2,0) ],29,2,0),t(=,10,2,0),t('"Usuario o ContraseÒa"',3,2,0) ]).
+b_line_i(18,2,2,cmd,2,[ t('',107,18,0),t([ t('Clickloginuc1',3,2,0),t('Linkforgot',3,2,0) ],29,2,0),t(=,10,2,0),t('link(',1,2,0),t(o(13,'WWMenu'),28,2,0),t(')',4,2,0) ]).
+b_line_i(19,2,2,cmd,2,[ t('',107,19,0),t([ t('Clickloginuc1',3,2,0),t('Textomsgalert',3,2,0) ],29,2,0),t(=,10,2,0),t('"Usuario o ContraseÒa incorrectas"',3,2,0) ]).
+b_line_i(20,2,2,cmd,2,[ t('',107,20,0),t([ t('Clickloginuc1',3,2,0),t('Alertamsg',3,2,0) ],29,2,0),t(=,10,2,0),t('"alerthidden"',3,2,0) ]).
+b_line_i(21,2,2,cmd,2,[ t('',107,21,0),t([ t('Clickloginuc1',3,2,0),t('Rutakb',3,2,0) ],29,2,0),t(=,10,2,0),t('trim(',1,2,0),t('Vruta',23,2,0),t(')',4,2,0) ]).
+b_line_i(22,2,2,cmd,2,[ t('',107,22,0),t([ t('Clickloginuc1',3,2,0),t('Varusuario',3,2,0) ],29,2,0),t(=,10,2,0),t('"VUSUARIO"',3,2,0) ]).
+b_line_i(23,2,2,cmd,2,[ t('',107,23,0),t([ t('Clickloginuc1',3,2,0),t('Varpassword',3,2,0) ],29,2,0),t(=,10,2,0),t('"VPASSWORD"',3,2,0) ]).
+b_line_i(24,2,2,cmd,2,[ t('',147,24,0) ]).
+b_line_i(26,2,2,cmd,2,[ t('',146,26,0),t([ t('Clickloginuc1',3,26,7),t('Click',3,26,21) ],29,26,21) ]).
+b_line_i(27,2,3,cmd,2,[ t('',109,27,0),t('null(',1,27,16),t('Vusuario',23,2,6),t(')',4,2,25),t('.AND.',9,2,27),t('null(',1,27,44),t('Vpassword',23,2,33),t(')',4,2,53) ]).
+b_line_i(28,2,3,cmd,2,[ t('',107,28,0),t([ t('Clickloginuc1',3,2,0),t('Alertamsg',3,2,0) ],29,2,0),t(=,10,2,0),t('"alertvisible"',3,2,0) ]).
+b_line_i(29,2,3,cmd,2,[ t('',110,29,0) ]).
+b_line_i([ 30,0 ],2,3,cmd,2,[ t('',107,30,0),t('GXLvl30',23,2,0),t(=,10,2,0),t('0',3,2,0) ]).
+b_line_i(30,3,1,cmd,31,[ t('',121,30,0),t('ORDER',39,30,12),t(32,2,30,18) ]).
+b_line_i([ 30,1 ],3,1,cmd,30,[ t('',107,30,0),t('GXLvl30',23,30,0),t(=,10,30,0),t('1',3,30,0) ]).
+b_line_i(33,3,1,cmd,31,[ t('',107,33,0),t([ t('Websession',23,33,4),t('set(',1,33,16) ],31,33,4),t('"USULOG"',3,33,21),t(',',7,31,29),t(32,2,31,30),t(')',4,31,35) ]).
+b_line_i(34,3,1,cmd,31,[ t('',104,34,0),t(o(13,'Dashboard'),28,31,4) ]).
+b_line_i(35,3,1,cmd,31,[ t('',128,35,0) ]).
+b_line_i([ 35,1 ],2,5,cmd,7,[ t('',109,35,0),t('GXLvl30',23,7,0),t(=,10,7,0),t('0',3,7,0) ]).
+b_line_i(36,2,5,cmd,8,[ t('',107,36,0),t([ t('Clickloginuc1',3,8,0),t('Alertamsg',3,8,0) ],29,8,0),t(=,10,8,0),t('"alertvisible"',3,8,0) ]).
+b_line_i(37,2,5,cmd,8,[ t('',111,37,0) ]).
+b_line_i(38,2,5,cmd,8,[ t('',111,38,0) ]).
+b_line_i(39,2,5,cmd,8,[ t('',147,39,0) ]).
+b_line_i(1000,2,5,cmd,0,[ t('',146,0,0),t('Load',3,0,0) ]).
+b_line_i(1001,2,5,cmd,0,[ t('',155,0,0) ]).
+b_line_i(1002,2,5,cmd,0,[ t('',147,0,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,div(2)).
+ 
+html_sub_i(2,3,html_i(0,div(3))).
+html_sub_i(3,4,html_i(0,div(4))).
+html_sub_i(4,5,html_i(0,div(5))).
+html_sub_i(5,6,html_i(0,usercontrol(6))).
+html_sub_i(6,7,html_i(0,container(7))).
+html_sub_i(7,8,html_i(0,div(8))).
+html_sub_i(8,9,html_i(0,div(9))).
+html_sub_i(9,10,html_i(0,div(10))).
+html_sub_i(10,11,html_i(0,div(11))).
+html_sub_i(11,12,html_i(0,t('Vusuario',23))).
+html_sub_i(6,13,html_i(1,container(13))).
+html_sub_i(13,14,html_i(0,div(14))).
+html_sub_i(14,15,html_i(0,div(15))).
+html_sub_i(15,16,html_i(0,div(16))).
+html_sub_i(16,17,html_i(0,div(17))).
+html_sub_i(17,18,html_i(0,t('Vpassword',23))).
+ 
+html_tags_i(1,'Class','form-horizontal FormLogin').
+html_tags_i(2,'data-gx-base-lib',bootstrapv3).
+html_tags_i(2,'data-abstract-form','').
+html_tags_i(12,'data-gx-att','var:11').
+html_tags_i(18,'data-gx-att','var:9').
+ 
+html_comp_i(2,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(2,'Class','Section',d,[ str ]).
+html_comp_i(2,'Id','',d,[ str ]).
+html_comp_i(2,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Semanticcontent',div,d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Valign',top,d,[ str ]).
+html_comp_i(3,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(3,'Class','',v,[ str ]).
+html_comp_i(3,'Id','Maintable',v,[ str ]).
+html_comp_i(3,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Semanticcontent',div,d,[ str ]).
+html_comp_i(3,'Align',left,d,[ str ]).
+html_comp_i(3,'Valign',top,d,[ str ]).
+html_comp_i(4,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(4,'Class',row,v,[ str ]).
+html_comp_i(4,'Id','',d,[ str ]).
+html_comp_i(4,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Semanticcontent',div,d,[ str ]).
+html_comp_i(4,'Align',left,d,[ str ]).
+html_comp_i(4,'Valign',top,d,[ str ]).
+html_comp_i(5,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(5,'Class','col-xs-12',v,[ str ]).
+html_comp_i(5,'Id','',d,[ str ]).
+html_comp_i(5,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Semanticcontent',div,d,[ str ]).
+html_comp_i(5,'Align',left,d,[ str ]).
+html_comp_i(5,'Valign',top,d,[ str ]).
+html_comp_i(6,'Usercontroltype','ClickLoginUC',d,[ str ]).
+html_comp_i(6,'Constructorname','ClickLoginUC',d,[ str ]).
+html_comp_i(6,'Showmethodname',show,d,[ str ]).
+html_comp_i(6,'Controlname','ClickLoginUC1',v,[ str ]).
+html_comp_i(6,'Rutakb','',d,[ str ]).
+html_comp_i(6,'Image','',d,[ str ]).
+html_comp_i(6,'Titulo','',d,[ str ]).
+html_comp_i(6,'Erroremail','',d,[ str ]).
+html_comp_i(6,'Inputusuario','',d,[ str ]).
+html_comp_i(6,'Errorpassword','',d,[ str ]).
+html_comp_i(6,'Inputpassword','',d,[ str ]).
+html_comp_i(6,'Alertamsg','',d,[ str ]).
+html_comp_i(6,'Textomsgalert','',d,[ str ]).
+html_comp_i(6,'Textbutton','',d,[ str ]).
+html_comp_i(6,'Forgot1','',d,[ str ]).
+html_comp_i(6,'Linkforgot','',d,[ str ]).
+html_comp_i(6,'Forgot2','',d,[ str ]).
+html_comp_i(6,'Linkcreateaccount','',d,[ str ]).
+html_comp_i(6,'Createaccount','',d,[ str ]).
+html_comp_i(6,'Varusuario','',d,[ str ]).
+html_comp_i(6,'Varpassword','',d,[ str ]).
+html_comp_i(6,'Visible',-1,d,[ bool ]).
+html_comp_i(6,'Csssupportfiles',[],d,[ params ]).
+html_comp_i(6,'Jssupportfiles',[ [ t('''UserControls/ClickLoginUCRender.js''',3) ] ],d,[ params ]).
+html_comp_i(6,'Csssharedsupportfiles',[],d,[ params ]).
+html_comp_i(6,'Jssharedsupportfiles',[],d,[ params ]).
+html_comp_i(7,'Containerid','Clickloginuc1_addusuarioin2',v,[ str ]).
+html_comp_i(8,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(8,'Class','Table',v,[ str ]).
+html_comp_i(8,'Id','Clickloginuc1_addusuarioin2',v,[ str ]).
+html_comp_i(8,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Semanticcontent',div,d,[ str ]).
+html_comp_i(8,'Align',left,d,[ str ]).
+html_comp_i(8,'Valign',top,d,[ str ]).
+html_comp_i(9,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(9,'Class',row,v,[ str ]).
+html_comp_i(9,'Id','',d,[ str ]).
+html_comp_i(9,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Semanticcontent',div,d,[ str ]).
+html_comp_i(9,'Align',left,d,[ str ]).
+html_comp_i(9,'Valign',top,d,[ str ]).
+html_comp_i(10,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(10,'Class','col-xs-12',v,[ str ]).
+html_comp_i(10,'Id','',d,[ str ]).
+html_comp_i(10,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(10,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(10,'Semanticcontent',div,d,[ str ]).
+html_comp_i(10,'Align',left,d,[ str ]).
+html_comp_i(10,'Valign',top,d,[ str ]).
+html_comp_i(11,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(11,'Class',' gx-attribute',v,[ str ]).
+html_comp_i(11,'Id','',d,[ str ]).
+html_comp_i(11,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Semanticcontent',div,d,[ str ]).
+html_comp_i(11,'Align',left,d,[ str ]).
+html_comp_i(11,'Valign',top,d,[ str ]).
+html_comp_i(12,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(12,'Colcount',80,d,[ num ]).
+html_comp_i(12,'Attid',-11,v,[ num ]).
+html_comp_i(12,'Class',input100,v,[ str ]).
+html_comp_i(12,'Controlname','&Vusuario',d,[ str ]).
+html_comp_i(12,'Returnonclick',0,v,[ bool ]).
+html_comp_i(12,'Captionclass','col-sm-3 input100Label',v,[ str ]).
+html_comp_i(12,'Captionstyle','',v,[ str ]).
+html_comp_i(12,'Captionposition','None',v,[ str ]).
+html_comp_i(12,'Captionvalue','v Usuario',d,[ str ]).
+html_comp_i(12,'Layoutclass','',v,[ str ]).
+html_comp_i(12,'Controltype',2,d,[ num ]).
+html_comp_i(12,'Inputtype',0,d,[ num ]).
+html_comp_i(12,'Editautocomplete',0,d,[ num ]).
+html_comp_i(12,'Autocorrection',-1,d,[ bool ]).
+html_comp_i(12,'Autocapitalization','FirstWord',d,[ str ]).
+html_comp_i(12,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(12,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(12,'Readonly',0,v,[ bool ]).
+html_comp_i(12,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(12,'Ispassword',0,d,[ bool ]).
+html_comp_i(12,'Autoresize',-1,d,[ bool ]).
+html_comp_i(12,'Gxwidth',measure(80,chr),d,[ measure ]).
+html_comp_i(12,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(12,'Ismultiline',0,d,[ bool ]).
+html_comp_i(12,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(12,'Fill',-1,d,[ bool ]).
+html_comp_i(12,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(12,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(12,'Font',font('Arial',10,[]),d,[ font ]).
+html_comp_i(12,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(12,'Gxformat',0,d,[ num ]).
+html_comp_i(12,'Title','',d,[ str ]).
+html_comp_i(12,'Invitemsg','',v,[ str ]).
+html_comp_i(13,'Containerid','Clickloginuc1_addpasswordin2',v,[ str ]).
+html_comp_i(14,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(14,'Class','Table',v,[ str ]).
+html_comp_i(14,'Id','Clickloginuc1_addpasswordin2',v,[ str ]).
+html_comp_i(14,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Semanticcontent',div,d,[ str ]).
+html_comp_i(14,'Align',left,d,[ str ]).
+html_comp_i(14,'Valign',top,d,[ str ]).
+html_comp_i(15,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(15,'Class',row,v,[ str ]).
+html_comp_i(15,'Id','',d,[ str ]).
+html_comp_i(15,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(15,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(15,'Semanticcontent',div,d,[ str ]).
+html_comp_i(15,'Align',left,d,[ str ]).
+html_comp_i(15,'Valign',top,d,[ str ]).
+html_comp_i(16,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(16,'Class','col-xs-12',v,[ str ]).
+html_comp_i(16,'Id','',d,[ str ]).
+html_comp_i(16,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(16,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(16,'Semanticcontent',div,d,[ str ]).
+html_comp_i(16,'Align',left,d,[ str ]).
+html_comp_i(16,'Valign',top,d,[ str ]).
+html_comp_i(17,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(17,'Class',' gx-attribute',v,[ str ]).
+html_comp_i(17,'Id','',d,[ str ]).
+html_comp_i(17,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(17,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(17,'Semanticcontent',div,d,[ str ]).
+html_comp_i(17,'Align',left,d,[ str ]).
+html_comp_i(17,'Valign',top,d,[ str ]).
+html_comp_i(18,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(18,'Colcount',40,d,[ num ]).
+html_comp_i(18,'Attid',-9,v,[ num ]).
+html_comp_i(18,'Class',input100,v,[ str ]).
+html_comp_i(18,'Controlname','&Vpassword',d,[ str ]).
+html_comp_i(18,'Returnonclick',0,v,[ bool ]).
+html_comp_i(18,'Captionclass','col-sm-3 input100Label',v,[ str ]).
+html_comp_i(18,'Captionstyle','',v,[ str ]).
+html_comp_i(18,'Captionposition','None',v,[ str ]).
+html_comp_i(18,'Captionvalue','v Password',d,[ str ]).
+html_comp_i(18,'Layoutclass','',v,[ str ]).
+html_comp_i(18,'Controltype',2,d,[ num ]).
+html_comp_i(18,'Inputtype',0,d,[ num ]).
+html_comp_i(18,'Editautocomplete',0,d,[ num ]).
+html_comp_i(18,'Autocorrection',-1,d,[ bool ]).
+html_comp_i(18,'Autocapitalization','FirstWord',d,[ str ]).
+html_comp_i(18,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(18,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(18,'Readonly',0,v,[ bool ]).
+html_comp_i(18,'Autocomplete',0,d,[ bool ]).
+html_comp_i(18,'Ispassword',-1,v,[ bool ]).
+html_comp_i(18,'Autoresize',-1,d,[ bool ]).
+html_comp_i(18,'Gxwidth',measure(40,chr),d,[ measure ]).
+html_comp_i(18,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(18,'Ismultiline',0,d,[ bool ]).
+html_comp_i(18,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(18,'Fill',-1,d,[ bool ]).
+html_comp_i(18,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(18,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(18,'Font',font('Arial',10,[]),d,[ font ]).
+html_comp_i(18,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(18,'Gxformat',0,d,[ num ]).
+html_comp_i(18,'Title','',d,[ str ]).
+html_comp_i(18,'Invitemsg','',v,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+warn_gen_i(msg([],spc0038,[ 'There is no index for order ',[ att(2,32) ],'; poor performance may be noticed',[ ' in group starting at line ','30','' ],'.' ])).
+ 
+ 
+lit_i(12,1,t('Vusuario',23),[ ctlname('&Vusuario'),ctrltype(edit,12),pos(12),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(11,1,div(11),[ ctlname('') ]).
+lit_i(10,1,div(10),[ ctlname('') ]).
+lit_i(9,1,div(9),[ ctlname('') ]).
+lit_i(8,1,div(8),[ ctlname('Clickloginuc1_addusuarioin2') ]).
+lit_i(18,1,t('Vpassword',23),[ ctlname('&Vpassword'),ctrltype(edit,18),pos(18),ispwd(1),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(17,1,div(17),[ ctlname('') ]).
+lit_i(16,1,div(16),[ ctlname('') ]).
+lit_i(15,1,div(15),[ ctlname('') ]).
+lit_i(14,1,div(14),[ ctlname('Clickloginuc1_addpasswordin2') ]).
+lit_i(6,1,usercontrol(6),[ ctlname('Clickloginuc1'),ctrltype(clickloginuc),el([]),containers([ container(7),container(13) ]) ]).
+lit_i(5,1,div(5),[ ctlname('') ]).
+lit_i(4,1,div(4),[ ctlname('') ]).
+lit_i(3,1,div(3),[ ctlname('Maintable') ]).
+lit_i(2,1,div(2),[ ctlname('') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+att_prop_i(2,32,'ExternalName','UsuID',d).
+att_prop_i(2,32,'ExternalNamespace','SGCS',d).
+att_prop_i(2,32,'EmptyAsNull','Yes',d).
+att_prop_i(2,32,idBasedOn,'',d).
+att_prop_i(2,32,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,32,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,32,'AttRegEx','',d).
+att_prop_i(2,32,'AttValidationFailedMsg','',d).
+att_prop_i(2,32,'DownloadOffline','0',d).
+att_prop_i(2,32,'FullName','UsuID',v).
+att_prop_i(2,37,'ExternalName','UsuCla',d).
+att_prop_i(2,37,'ExternalNamespace','SGCS',d).
+att_prop_i(2,37,'EmptyAsNull','Yes',d).
+att_prop_i(2,37,idBasedOn,'',d).
+att_prop_i(2,37,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,37,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,37,'AttRegEx','',d).
+att_prop_i(2,37,'AttValidationFailedMsg','',d).
+att_prop_i(2,37,'DownloadOffline','0',d).
+att_prop_i(2,37,'FullName','UsuCla',v).
+att_prop_i(2,42,'ExternalName','UsuarioID',d).
+att_prop_i(2,42,'ExternalNamespace','SGCS',d).
+att_prop_i(2,42,'EmptyAsNull','Yes',d).
+att_prop_i(2,42,idBasedOn,'',d).
+att_prop_i(2,42,'AUTONUMBER','0',d).
+att_prop_i(2,42,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,42,'AttRegEx','',d).
+att_prop_i(2,42,'AttValidationFailedMsg','',d).
+att_prop_i(2,42,'DownloadOffline','0',d).
+att_prop_i(2,42,'FullName','UsuarioID',v).
+ 
+ 
+tbl_att_prop_i(2,15,42,'AllowNulls',n).
+tbl_att_prop_i(2,15,32,'AllowNulls',n).
+tbl_att_prop_i(2,15,37,'AllowNulls',n).
+ 
+var_prop_i(2,'Vemail',idBasedOn,33,v).
+var_prop_i(2,'Vemail','AttRegEx','^((\w+([-+.'']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*)|(\s*))$',d).
+var_prop_i(2,'Vemail','AttValidationFailedMsg','GXM_DoesNotMatchRegExp',d).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+security_permission_i(login_Execute,execute,'').
+ 
+ 
+sub_info_i(146,'Start',1,24,[ [ 'Websession',[ t('Httprequest',23),t('Baseurl',3) ],'Vimage_GXI' ],[ [ t('Clickloginuc1',3),t('Image',3) ],[ t('Clickloginuc1',3),t('Titulo',3) ],[ t('Clickloginuc1',3),t('Erroremail',3) ],[ t('Clickloginuc1',3),t('Errorpassword',3) ],[ t('Clickloginuc1',3),t('Textbutton',3) ],[ t('Clickloginuc1',3),t('Linkcreateaccount',3) ],[ t('Clickloginuc1',3),t('Linkforgot',3) ],[ t('Clickloginuc1',3),t('Createaccount',3) ],[ t('Clickloginuc1',3),t('Forgot1',3) ],[ t('Clickloginuc1',3),t('Forgot2',3) ],[ t('Clickloginuc1',3),t('Textomsgalert',3) ],[ t('Clickloginuc1',3),t('Alertamsg',3) ],[ t('Clickloginuc1',3),t('Rutakb',3) ],[ t('Clickloginuc1',3),t('Varusuario',3) ],[ t('Clickloginuc1',3),t('Varpassword',3) ] ] ]).
+sub_info_i(146,[ t('Clickloginuc1',3,26,7),t('Click',3,26,21) ],26,39,[ [ 'Vusuario','Vpassword',32,37 ],[ [ t('Clickloginuc1',3),t('Alertamsg',3) ],'Websession' ] ]).
+ 
+pgm_parm_i(web,130,'DASHBOARD',[],[]).
+pgm_parm_i(web,108,'WWMENU',[],[]).
+ 
+pgm_callprotocol_i(web,110,'LOGIN','INTERNAL','Secure').
+pgm_callprotocol_i(web,130,'DASHBOARD','INTERNAL','Secure').
+pgm_callprotocol_i(web,108,'WWMENU','INTERNAL','Secure').
+ 
+ 
+pgm_main_info_i(web,110,'LOGIN',[ 15,'LOGIN','Login','','','','' ]).
+ 
+ 
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

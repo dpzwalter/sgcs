@@ -1,0 +1,670 @@
+spec_i([ web,106,'Master Page','MasterPage',0,eng,'16_0_10-142546' ]).
+ 
+struct_i(2,1,[ 'Vruta','Vusuid','Vurlimg','Vscript','Vscript11','Vmenuxid','Vscript2' ],[]).
+struct_i(5,1,[ 'Vruta','Vusuid','Vurlimg','Vscript','Vscript11','Vmenuxid','Vscript2' ],[]).
+struct_i(4,1,[ 'Vruta','Vusuid','Vurlimg','Vscript','Vscript11','Vmenuxid','Vscript2' ],[]).
+struct_i(3,1,[],[]).
+ 
+level_i(2,[ 0,[],[],[],[],[],[],[],[],[] ]).
+level_i(5,[ 10,[ [ 10,many ] ],[],[],[ [ [ 10 ],[ 43,31,28,30 ] ] ],[ [ [ 10 ],[] ] ],[ 43,31 ],'5',[ 10,[ [ [],'Vmenuxid',43 ] ] ],[] ]).
+level_i(4,[ 15,[ [ 15,many ] ],[],[],[ [ [ 15 ],[ 32,40000,33,40,36,35,34 ] ] ],[ [ [ 15 ],[] ] ],[ 32 ],'',[ 15,[ [ [],'Vusuid',32 ] ] ],[] ]).
+level_i(3,[ 10,[ [ 10,many ] ],[],[],[ [ [ 10 ],[ 31,43,28,30,27,29 ] ] ],[ [ [ 10 ],[] ] ],[ 29 ],'',[],[] ]).
+ 
+tw_i(2,[]).
+tw_i(5,[]).
+tw_i(4,[]).
+tw_i(3,[]).
+ 
+lwi_i(2,[ [] ]).
+lwi_i(5,[ [] ]).
+lwi_i(4,[ [] ]).
+lwi_i(3,[ [ c([ t(31,2),t(=,10),t([ 171,'ACTIVO' ],44) ],[ 31 ]),c([ t(43,2),t(=,10),t('0',3) ],[ 43 ]) ] ]).
+ 
+ 
+ 
+level_option_i(3,usr_condition,y).
+level_option_i(4,usr_condition,y).
+level_option_i(5,usr_condition,y).
+ 
+ta_i(2,[ [] ]).
+ta_i(5,[ [ [ 10,43 ],[ 10,31 ],[ 10,28 ],[ 10,30 ] ] ]).
+ta_i(4,[ [ [ 15,32 ],[ 15,40000 ],[ 15,33 ],[ 15,40 ],[ 15,36 ],[ 15,35 ] ] ]).
+ta_i(3,[ [ [ 10,31 ],[ 10,43 ],[ 10,28 ],[ 10,30 ],[ 10,27 ],[ 10,29 ] ] ]).
+ 
+las_i(2,[ [] ]).
+las_i(5,[ [ 43,31,28,30 ] ]).
+las_i(4,[ [ 32,40000,33,40,36,35,34 ] ]).
+las_i(3,[ [ 31,43,28,30,27,29 ] ]).
+ 
+lac_i(2,[ [] ]).
+lac_i(5,[ [] ]).
+lac_i(4,[ [] ]).
+lac_i(3,[ [] ]).
+ 
+ 
+lits_i('Script1',5,10).
+lits_i('Script2',5,10).
+ 
+cls_i([ 5,10 ],[ 5,16 ]).
+ 
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS','ÖmZ]atπWêd¡xe∆rv')).
+rule_i(0,datastore(2,'CC_USER_ID',uQBYYB1GlZ9vU8Jf)).
+rule_i(0,datastore(2,'CC_SERVER','trialapps3.genexus.com')).
+rule_i(0,datastore(2,'CC_DBNAME','Id0a061a7d5fed074419778f6b67627b48')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','uQ⁄<EaÍ@‚øÃ7J^ÍAÜY⁄HÃTV')).
+rule_i(0,datastore(2,'USER_ID',uQBYYB1GlZ9vU8Jf)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','trialapps3.genexus.com')).
+rule_i(0,datastore(2,'CS_DBNAME','Id0a061a7d5fed074419778f6b67627b48')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','ÖmZ]atπWêd¡xe∆rv')).
+rule_i(0,datastore(1,'CC_USER_ID',uQBYYB1GlZ9vU8Jf)).
+rule_i(0,datastore(1,'CC_SERVER','trialapps3.genexus.com')).
+rule_i(0,datastore(1,'CC_DBNAME','Id0a061a7d5fed074419778f6b67627b48')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','uQ⁄<EaÍ@‚øÃ7J^ÍAÜY⁄HÃTV')).
+rule_i(0,datastore(1,'USER_ID',uQBYYB1GlZ9vU8Jf)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','trialapps3.genexus.com')).
+rule_i(0,datastore(1,'CS_DBNAME','Id0a061a7d5fed074419778f6b67627b48')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','MasterPage')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Secure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('WebApplication',idDefault)).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('WEB_COMP','Master')).
+rule_i(0,prop('Theme',o(25,'Carmine'))).
+rule_i(0,prop('Folder',o(8,'Web'))).
+rule_i(0,prop('ObjDesc','Master Page')).
+rule_i(0,prop('ObjName','MasterPage')).
+rule_i(0,maingen(15)).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,3,t,10,[],[ [],'',[] ]).
+a_i(3,4,f,34,[],[ [],[ t('trim(',1),t(35,2),t(')',4),t(+,5),t(''' ''',3),t(+,5),t('trim(',1),t(36,2),t(')',4) ] ]).
+a_i(4,4,t,15,[],[ [ [ [],'Vusuid',32 ] ],'',[] ]).
+a_i(5,5,t,10,[],[ [ [ [],'Vmenuxid',43 ] ],'5',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,[]).
+v_i(t,o,2,31).
+v_i(t,o,2,43).
+v_i(t,o,2,28).
+v_i(t,o,2,30).
+v_i(t,o,2,27).
+v_i(t,o,2,29).
+v_i(f,i,3,35).
+v_i(f,i,3,36).
+v_i(f,o,3,34).
+v_i(t,i,4,'Vusuid').
+v_i(t,o,4,32).
+v_i(t,o,4,40000).
+v_i(t,o,4,33).
+v_i(t,o,4,40).
+v_i(t,o,4,36).
+v_i(t,o,4,35).
+v_i(t,i,5,'Vmenuxid').
+v_i(t,o,5,43).
+v_i(t,o,5,31).
+v_i(t,o,5,28).
+v_i(t,o,5,30).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i(42,[ 'UsuarioID',int,4,0,'ZZZ9',0,'Usuario ID','',0 ]).
+attri_i(35,[ 'UsuNom',svchar,40,0,'',0,'Usu Nom','',0 ]).
+attri_i(36,[ 'UsuApe',svchar,40,0,'',0,'Usu Ape','',0 ]).
+attri_i(31,[ 'MenXEst',char,1,0,'',0,'Estado','',0 ]).
+attri_i(43,[ 'MenXPadre',int,4,0,'ZZZ9',0,'Men XPadre','',0 ]).
+attri_i(34,[ 'UsuNomCom',svchar,80,0,'',0,'Usu Nom Com','',0 ]).
+attri_i(33,[ 'UsuImg',bits,4,0,'',0,'Usu Img','',0 ]).
+attri_i(40,[ 'RolId',int,4,0,'ZZZ9',0,'Rol Id','',0 ]).
+attri_i(32,[ 'UsuID',svchar,40,0,'',0,'Usu ID','',0 ]).
+attri_i(40000,[ 'UsuImg_GXI',svchar,2048,0,'',0,'',[],0 ]).
+attri_i(28,[ 'MenuXDesc',svchar,40,0,'',0,'Menu XDesc','',0 ]).
+attri_i(30,[ 'MenXUrl',svchar,100,0,'',0,'Url','',0 ]).
+attri_i(27,[ 'MenuXid',int,4,0,'ZZZ9',0,'Menu Xid','',0 ]).
+attri_i(29,[ 'MenuXPosi',int,4,0,'ZZZ9',0,'Position','',0 ]).
+attri_i('Vusuimg_GXI',[ 'Vusuimg_GXI',svchar,2048,0,'',0,'',[],23 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',22 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',21 ]).
+attri_i('Ban',[ ban,int,4,0,'ZZZ9',0,ban,'',20 ]).
+attri_i('Usurol',[ 'UsuRol',int,4,0,'ZZZ9',0,'Usu Rol','',19 ]).
+attri_i('Vusurol',[ vUsuRol,int,4,0,'ZZZ9',0,'v Usu Rol','',18 ]).
+attri_i('Websession',[ 'WebSession',o(websession),4,0,'',0,'Web Session','',10 ]).
+attri_i('Vusunomcom',[ vUsuNomCom,svchar,80,0,'',0,'Usu Nom Com','',12 ]).
+attri_i('Vusuimg',[ vUsuImg,bits,1024,0,'',0,'Usu Img','',13 ]).
+attri_i('Vusuid',[ vUsuId,svchar,40,0,'',0,'Usu ID','',11 ]).
+attri_i('Vurlimg',[ vUrlImg,svchar,4000,0,'',0,'v Url Img','',14 ]).
+attri_i('Vsubmenu',[ vSubMenu,vchar,2097152,0,'',0,'v Sub Menu','',16 ]).
+attri_i('Vscript2',[ vScript2,vchar,2097152,0,'',0,'v Script2','',8 ]).
+attri_i('Vscript11',[ vScript11,vchar,2097152,0,'',0,'v Script11','',9 ]).
+attri_i('Vscript',[ vScript,vchar,2097152,0,'',0,'v Script','',7 ]).
+attri_i('Vruta',[ vRuta,svchar,400,0,'',0,'v Ruta','',6 ]).
+attri_i('Icon',[ 'Icon',svchar,100,0,'',0,'Icon','',17 ]).
+attri_i('Httprequest',[ 'HttpRequest',o(httprequest),4,0,'',0,'Http Request','',5 ]).
+attri_i('Vmenuxid',[ vMenuXId,int,4,0,'ZZZ9',0,'Menu Xid','',15 ]).
+ 
+table_i(15,[ 'Usuario',[ 42,32,35,36,33,40000,40 ],'Usuario','Usuario' ]).
+table_i(10,[ 'Menu',[ 27,28,29,30,31,43 ],'Menu','Menu' ]).
+ 
+index_i(10,[ '',a,[ 29 ],'' ]).
+index_i(10,[ 'IMENU',u,[ 27 ],'IMenu' ]).
+index_i(15,[ '',a,[ 32 ],'' ]).
+index_i(15,[ 'IUSUARIO',u,[ 42 ],'IUsuario' ]).
+index_i(10,[ '5',a,[ 43,31 ],'' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+sql_no_eval_hor_i(4,34).
+ 
+add_att_i(bits,2,'Vusuimg_GXI','Vusuimg','Vusuimg_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,2,40000,33,'UsuImg_GXI',[ svchar,2048,0,0 ]).
+ 
+ 
+ 
+ 
+start_i(5,0,0,[ [ [ 43,23,'Vmenuxid',= ],[ 31,44,[ 171,'ACTIVO' ],= ] ],many ]).
+start_i(4,0,0,[ [ [ 32,23,'Vusuid',= ] ],many ]).
+ 
+end_i(5,0,0,[ [ [ t(43,2),t(=,10),t('Vmenuxid',23) ],[ t(31,2),t(=,10),t([ 171,'ACTIVO' ],44) ] ] ]).
+end_i(4,0,0,[ [ [ t(32,2),t(=,10),t('Vusuid',23) ] ] ]).
+ 
+ 
+ 
+ 
+enumerated_i(2,31,171).
+ 
+enum_value_i(2,171,'"A"','ACTIVO','"ACTIVO"',[ none ]).
+enum_value_i(2,171,'"I"','INACTIVO','"INACTIVO"',[ none ]).
+ 
+enum_value_info_i(2,171,'Estado').
+ 
+enum_type_i(2,171,char,1,0).
+ 
+dom_info_i(171,[ 'Estado' ]).
+ 
+ 
+break_i(3,nvg,1,[ 29 ],[ [ 29,27,30,28 ],[ 31,43 ],[] ]).
+break_i(4,nvg,1,[ 32 ],[ [ 32,40,33,34,40000 ],[ 32 ],[] ]).
+break_i(5,nvg,1,[ 43,31 ],[ [ 43,31,30,28 ],[ 43,31 ],[] ]).
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,1).
+b_group_i(2,2,lit,0,2,1).
+b_group_i(2,3,nvg,3,96,96).
+b_group_i(3,1,lit,0,97,97).
+b_group_i(2,4,lit,0,114,131).
+b_group_i(2,5,lit,0,132,19).
+b_group_i(2,6,nvg,4,132,132).
+b_group_i(4,1,lit,0,133,134).
+b_group_i(2,7,lit,0,139,147).
+b_group_i(2,8,lit,0,148,27).
+b_group_i(2,9,nvg,5,151,151).
+b_group_i(5,1,lit,0,152,152).
+b_group_i(2,10,lit,0,158,0).
+ 
+b_line_i(1,2,1,cmd,1,[ t('',146,1,0),t('Start',3,1,7) ]).
+b_line_i(2,2,2,cmd,1,[ t('',107,2,0),t('Vruta',23,1,0),t(=,10,1,0),t([ t('Httprequest',23,1,0),t('Baseurl',3,1,0) ],29,1,0) ]).
+b_line_i(4,2,2,cmd,1,[ t('',107,4,0),t('Vusuid',23,1,0),t(=,10,1,0),t([ t('Websession',23,1,0),t('get(',1,1,0) ],31,1,0),t('"USULOG"',3,1,0),t(')',4,1,0) ]).
+b_line_i(5,2,2,cmd,1,[ t('',109,5,0),t('null(',1,5,13),t('Vusuid',23,1,5),t(')',4,1,22) ]).
+b_line_i(6,2,2,cmd,1,[ t('',104,6,0),t(o(13,'Login'),28,1,3) ]).
+b_line_i(7,2,2,cmd,1,[ t('',111,7,0) ]).
+b_line_i(10,2,2,cmd,1,[ t('',145,10,0),t('''BUSCAR ROL''',3,10,4) ]).
+b_line_i(12,2,2,cmd,1,[ t('',109,12,0),t('(',0,12,14),t('null(',1,1,14),t('Vusuimg',23,1,5),t(')',4,1,14),t('.AND.',9,1,14),t('null(',1,1,14),t('Vusuimg_GXI',23,1,14),t(')',4,1,14),t(')',4,1,23) ]).
+b_line_i(13,2,2,cmd,1,[ t('',107,13,0),t('Vurlimg',23,1,0),t(=,10,1,0),t('''MyMaster/dist/img/user2-160x160.jpg''',3,1,0) ]).
+b_line_i(14,2,2,cmd,1,[ t('',110,14,0) ]).
+b_line_i(15,2,2,cmd,1,[ t('',107,15,0),t('Vurlimg',23,1,0),t(=,10,1,0),t('Vusuimg_GXI',23,1,0) ]).
+b_line_i(16,2,2,cmd,1,[ t('',111,16,0) ]).
+b_line_i(18,2,2,cmd,1,[ t('',107,18,0),t([ t('Form',3,1,0),t('Headerrawhtml',3,1,0) ],29,1,0),t(=,10,1,0),t('''<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<link rel="stylesheet" href="''',3,1,0),t(+,5,1,0),t('Vruta',23,1,0),t(+,5,1,0),t('''MyMaster/bower_components/font-awesome/css/font-awesome.min.css">''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<link rel="stylesheet" href="''',3,1,0),t(+,5,1,0),t('Vruta',23,1,0),t(+,5,1,0),t('''MyMaster/bower_components/Ionicons/css/ionicons.min.css">''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<link rel="stylesheet" href="''',3,1,0),t(+,5,1,0),t('Vruta',23,1,0),t(+,5,1,0),t('''MyMaster/dist/css/AdminLTE.min.css">''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<link rel="stylesheet" href="''',3,1,0),t(+,5,1,0),t('Vruta',23,1,0),t(+,5,1,0),t('''MyMaster/dist/css/skins/_all-skins.min.css">''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<link rel="stylesheet" href="''',3,1,0),t(+,5,1,0),t('Vruta',23,1,0),t(+,5,1,0),t('''MyMaster/bower_components/morris.js/morris.css">''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<link rel="stylesheet" href="''',3,1,0),t(+,5,1,0),t('Vruta',23,1,0),t(+,5,1,0),t('''MyMaster/bower_components/jvectormap/jquery-jvectormap.css">''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<link rel="stylesheet" href="''',3,1,0),t(+,5,1,0),t('Vruta',23,1,0),t(+,5,1,0),t('''MyMaster/bower_components/bootstrap-daterangepicker/daterangepicker.css">''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<link rel="stylesheet" href="''',3,1,0),t(+,5,1,0),t('Vruta',23,1,0),t(+,5,1,0),t('''MyMaster/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<script>window.onload = function(){document.body.className = "form-horizontal Form form-horizontal-fx hold-transition skin-blue sidebar-mini";}</script>''',3,1,0) ]).
+b_line_i(30,2,2,cmd,1,[ t('',107,30,0),t([ t([ t('Form',3,30,6),t('Jscriptsrc',3,30,11) ],29,30,6),t('add(',1,30,22) ],31,30,22),t('Vruta',23,1,27),t(+,5,1,33),t('''MyMaster/bower_components/jquery/dist/jquery.min.js''',3,30,34),t(')',4,1,87) ]).
+b_line_i(31,2,2,cmd,1,[ t('',107,31,0),t([ t([ t('Form',3,31,6),t('Jscriptsrc',3,31,11) ],29,31,6),t('add(',1,31,22) ],31,31,22),t('Vruta',23,1,27),t(+,5,1,33),t('''MyMaster/bower_components/jquery-ui/jquery-ui.min.js''',3,31,34),t(')',4,1,88) ]).
+b_line_i(32,2,2,cmd,1,[ t('',107,32,0),t([ t([ t('Form',3,32,6),t('Jscriptsrc',3,32,11) ],29,32,6),t('add(',1,32,22) ],31,32,22),t('Vruta',23,1,27),t(+,5,1,33),t('''MyMaster/bower_components/raphael/raphael.min.js''',3,32,34),t(')',4,1,84) ]).
+b_line_i(33,2,2,cmd,1,[ t('',107,33,0),t([ t([ t('Form',3,33,6),t('Jscriptsrc',3,33,11) ],29,33,6),t('add(',1,33,22) ],31,33,22),t('Vruta',23,1,27),t(+,5,1,33),t('''MyMaster/bower_components/jquery-sparkline/dist/jquery.sparkline.min.js''',3,33,34),t(')',4,1,107) ]).
+b_line_i(34,2,2,cmd,1,[ t('',107,34,0),t([ t([ t('Form',3,34,6),t('Jscriptsrc',3,34,11) ],29,34,6),t('add(',1,34,22) ],31,34,22),t('Vruta',23,1,27),t(+,5,1,33),t('''MyMaster/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js''',3,34,34),t(')',4,1,94) ]).
+b_line_i(35,2,2,cmd,1,[ t('',107,35,0),t([ t([ t('Form',3,35,6),t('Jscriptsrc',3,35,11) ],29,35,6),t('add(',1,35,22) ],31,35,22),t('Vruta',23,1,27),t(+,5,1,33),t('''MyMaster/plugins/jvectormap/jquery-jvectormap-world-mill-en.js''',3,35,34),t(')',4,1,98) ]).
+b_line_i(36,2,2,cmd,1,[ t('',107,36,0),t([ t([ t('Form',3,36,6),t('Jscriptsrc',3,36,11) ],29,36,6),t('add(',1,36,22) ],31,36,22),t('Vruta',23,1,27),t(+,5,1,33),t('''MyMaster/bower_components/jquery-knob/dist/jquery.knob.min.js''',3,36,34),t(')',4,1,97) ]).
+b_line_i(37,2,2,cmd,1,[ t('',107,37,0),t([ t([ t('Form',3,37,6),t('Jscriptsrc',3,37,11) ],29,37,6),t('add(',1,37,22) ],31,37,22),t('Vruta',23,1,27),t(+,5,1,33),t('''MyMaster/bower_components/moment/min/moment.min.js''',3,37,34),t(')',4,1,86) ]).
+b_line_i(38,2,2,cmd,1,[ t('',107,38,0),t([ t([ t('Form',3,38,6),t('Jscriptsrc',3,38,11) ],29,38,6),t('add(',1,38,22) ],31,38,22),t('Vruta',23,1,27),t(+,5,1,33),t('''MyMaster/bower_components/bootstrap-daterangepicker/daterangepicker.js''',3,38,34),t(')',4,1,106) ]).
+b_line_i(39,2,2,cmd,1,[ t('',107,39,0),t([ t([ t('Form',3,39,6),t('Jscriptsrc',3,39,11) ],29,39,6),t('add(',1,39,22) ],31,39,22),t('Vruta',23,1,27),t(+,5,1,33),t('''MyMaster/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js''',3,39,34),t(')',4,1,118) ]).
+b_line_i(40,2,2,cmd,1,[ t('',107,40,0),t([ t([ t('Form',3,40,6),t('Jscriptsrc',3,40,11) ],29,40,6),t('add(',1,40,22) ],31,40,22),t('Vruta',23,1,27),t(+,5,1,33),t('''MyMaster/bower_components/jquery-slimscroll/jquery.slimscroll.min.js''',3,40,34),t(')',4,1,104) ]).
+b_line_i(41,2,2,cmd,1,[ t('',107,41,0),t([ t([ t('Form',3,41,6),t('Jscriptsrc',3,41,11) ],29,41,6),t('add(',1,41,22) ],31,41,22),t('Vruta',23,1,27),t(+,5,1,33),t('''MyMaster/bower_components/fastclick/lib/fastclick.js''',3,41,34),t(')',4,1,88) ]).
+b_line_i(42,2,2,cmd,1,[ t('',107,42,0),t([ t([ t('Form',3,42,6),t('Jscriptsrc',3,42,11) ],29,42,6),t('add(',1,42,22) ],31,42,22),t('Vruta',23,1,27),t(+,5,1,33),t('''MyMaster/dist/js/adminlte.min.js''',3,42,34),t(')',4,1,68) ]).
+b_line_i(43,2,2,cmd,1,[ t('',107,43,0),t([ t([ t('Form',3,43,6),t('Jscriptsrc',3,43,11) ],29,43,6),t('add(',1,43,22) ],31,43,22),t('Vruta',23,1,27),t(+,5,1,33),t('''MyMaster/dist/js/demo.js''',3,43,34),t(')',4,1,60) ]).
+b_line_i(46,2,2,cmd,1,[ t('',107,46,0),t('Vscript',23,1,0),t(=,10,1,0),t('''<div class="wrapper">''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<header class="main-header">''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<a href="index2.html" class="logo">''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<span class="logo-mini"><b>SGCS</b>Admin</span>''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<span class="logo-lg"><b>SGCS</b>Soft</span>''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''</a>''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<nav class="navbar navbar-static-top">''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t(''' <span class="sr-only"></span>''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''</a>''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<div class="navbar-custom-menu">''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<ul class="nav navbar-nav">''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<li class="dropdown notifications-menu">''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<a href="#" class="dropdown-toggle" data-toggle="dropdown">''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<button class="btn-primary" id="ProfileBtn">''',3,1,0),t(+,5,1,0),t('Vusunomcom',23,1,0),t(+,5,1,0),t('''</button>''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''</a>''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<ul class="dropdown-menu">''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<li class="footer"><a href="''',3,1,0),t(+,5,1,0),t('Vruta',23,1,0),t(+,5,1,0),t('''wpdestroyer.aspx">Cerrar SesiÛn</a></li>''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''</ul>''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''</li>''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''</ul>''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''</div>''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''</nav>''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''</header>''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<aside class="main-sidebar" style="max-height: 100%;">''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<section class="sidebar">''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<div class="user-panel">''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<div class="pull-left image">''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<img src="''',3,1,0),t(+,5,1,0),t('Vurlimg',23,1,0),t(+,5,1,0),t('''" class="img-circle" alt="User Image">''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''</div>''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<div class="pull-left info">''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<p>''',3,1,0),t(+,5,1,0),t('Vusunomcom',23,1,0),t(+,5,1,0),t('''</p>''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<a href="#"><i class="fa fa-circle text-success"></i> Online</a>''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''</div>''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''</div>''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<ul class="sidebar-menu" data-widget="tree">''',3,1,0),t(+,5,1,0),t('newline(',1,1,0),t(')',4,1,0),t(+,5,1,0),t('''<li class="header">SOFTWARE</li>''',3,1,0) ]).
+b_line_i(96,3,1,cmd,97,[ t('',121,96,0),t('ORDER',39,96,14),t(29,2,96,20) ]).
+b_line_i(99,3,1,cmd,97,[ t('',107,99,0),t('Vscript11',23,97,0),t(=,10,97,0),t('Vscript11',23,97,0),t(+,5,97,0),t('''<li class="active treeview">''',3,97,0),t(+,5,97,0),t('newline(',1,97,0),t(')',4,97,0),t(+,5,97,0),t('''<a href="''',3,97,0),t(+,5,97,0),t('trim(',1,97,0),t(30,2,97,0),t(')',4,97,0),t(+,5,97,0),t('''">''',3,97,0),t(+,5,97,0),t('newline(',1,97,0),t(')',4,97,0),t(+,5,97,0),t('''<i class="fa fa-tasks" aria-hidden="true"></i> <span>''',3,97,0),t(+,5,97,0),t('trim(',1,97,0),t(28,2,97,0),t(')',4,97,0),t(+,5,97,0),t('''</span>''',3,97,0),t(+,5,97,0),t('newline(',1,97,0),t(')',4,97,0),t(+,5,97,0),t('''<span class="pull-right-container">''',3,97,0),t(+,5,97,0),t('newline(',1,97,0),t(')',4,97,0),t(+,5,97,0),t('''<i class="fa fa-angle-left pull-right"></i>''',3,97,0),t(+,5,97,0),t('newline(',1,97,0),t(')',4,97,0),t(+,5,97,0),t('''</span>''',3,97,0),t(+,5,97,0),t('newline(',1,97,0),t(')',4,97,0),t(+,5,97,0),t('''</a>''',3,97,0) ]).
+b_line_i(107,3,1,cmd,97,[ t('',107,107,0),t('Vmenuxid',23,97,0),t(=,10,97,0),t(27,2,97,0) ]).
+b_line_i(108,3,1,cmd,97,[ t('',145,108,0),t('''SUBMENU''',3,108,6) ]).
+b_line_i(109,3,1,cmd,97,[ t('',109,109,0),t('Ban',23,97,6),t(=,10,97,11),t('1',3,97,13) ]).
+b_line_i(110,3,1,cmd,97,[ t('',107,110,0),t('Vscript11',23,97,0),t(=,10,97,0),t('Vscript11',23,97,0),t(+,5,97,0),t('Vsubmenu',23,97,0) ]).
+b_line_i(111,3,1,cmd,97,[ t('',111,111,0) ]).
+b_line_i(112,3,1,cmd,97,[ t('',107,112,0),t('Vscript11',23,97,0),t(=,10,97,0),t('Vscript11',23,97,0),t(+,5,97,0),t('''</li>''',3,97,0) ]).
+b_line_i(113,3,1,cmd,97,[ t('',128,113,0) ]).
+b_line_i(114,2,4,cmd,19,[ t('',107,114,0),t('Vscript',23,19,0),t(=,10,19,0),t('Vscript',23,19,0),t(+,5,19,0),t('Vscript11',23,19,0),t(+,5,19,0),t('''</ul>''',3,19,0),t(+,5,19,0),t('newline(',1,19,0),t(')',4,19,0),t(+,5,19,0),t('''</section>''',3,19,0),t(+,5,19,0),t('newline(',1,19,0),t(')',4,19,0),t(+,5,19,0),t('''</aside>''',3,19,0),t(+,5,19,0),t('newline(',1,19,0),t(')',4,19,0),t(+,5,19,0),t('''<div class="content-wrapper" >''',3,19,0),t(+,5,19,0),t('newline(',1,19,0),t(')',4,19,0),t(+,5,19,0),t('''<section class="content-header">''',3,19,0),t(+,5,19,0),t('newline(',1,19,0),t(')',4,19,0),t(+,5,19,0),t('''<ol class="breadcrumb" style="position:static;">''',3,19,0),t(+,5,19,0),t('newline(',1,19,0),t(')',4,19,0),t(+,5,19,0),t('''<li><a href="#"><i class="fa fa-dashboard"></i> Position</a></li>''',3,19,0),t(+,5,19,0),t('newline(',1,19,0),t(')',4,19,0),t(+,5,19,0),t('''<li class="active">''',3,19,0),t(+,5,19,0),t([ t('Form',3,19,0),t('Caption',3,19,0) ],29,19,0),t(+,5,19,0),t('''</li>''',3,19,0),t(+,5,19,0),t('newline(',1,19,0),t(')',4,19,0),t(+,5,19,0),t('''</ol>''',3,19,0),t(+,5,19,0),t('newline(',1,19,0),t(')',4,19,0),t(+,5,19,0),t('''</section>''',3,19,0),t(+,5,19,0),t('newline(',1,19,0),t(')',4,19,0),t(+,5,19,0),t('''<section class="content" >''',3,19,0) ]).
+b_line_i(126,2,4,cmd,19,[ t('',107,126,0),t('Vscript2',23,19,0),t(=,10,19,0),t('''  </section></div></div>''',3,19,0) ]).
+b_line_i(127,2,4,cmd,19,[ t('',107,127,0),t([ t('Txtscript1',3,19,0),t('Caption',3,19,0) ],29,19,0),t(=,10,19,0),t('Vscript',23,19,0) ]).
+b_line_i(128,2,4,cmd,19,[ t('',107,128,0),t([ t('Txtscript2',3,19,0),t('Caption',3,19,0) ],29,19,0),t(=,10,19,0),t('Vscript2',23,19,0) ]).
+b_line_i(130,2,4,cmd,19,[ t('',147,130,0) ]).
+b_line_i(131,2,4,cmd,19,[ t('',143,131,0),t('''BUSCAR ROL''',3,131,5) ]).
+b_line_i(132,4,1,cmd,133,[ t('',121,132,0),t(table,3,132,12),t(15,3,132,12),t('ORDER',39,132,20),t(32,2,132,26) ]).
+b_line_i(134,4,1,cmd,133,[ t('',107,134,0),t('Vusunomcom',23,133,0),t(=,10,133,0),t(34,2,133,0) ]).
+b_line_i(135,4,1,cmd,133,[ t('',107,135,0),t('Vusuimg',23,133,0),t(=,10,133,0),t(33,2,133,0) ]).
+b_line_i([ 135,1 ],4,1,cmd,133,[ t('',107,135,0),t('Vusuimg_GXI',23,133,0),t(=,10,133,0),t(40000,2,133,0) ]).
+b_line_i(136,4,1,cmd,134,[ t('',107,136,0),t('Vusurol',23,134,0),t(=,10,134,0),t(40,2,134,0) ]).
+b_line_i(137,4,1,cmd,134,[ t('',139,137,0) ]).
+b_line_i(138,4,1,cmd,134,[ t('',128,138,0) ]).
+b_line_i(140,2,7,cmd,27,[ t('',109,140,0),t('Vusurol',23,27,5),t(=,10,27,14),t('1',3,27,16) ]).
+b_line_i(141,2,7,cmd,27,[ t('',104,141,0),t(o(1,'ProcedureRol'),28,27,3) ]).
+b_line_i(142,2,7,cmd,27,[ t('',110,142,0) ]).
+b_line_i(143,2,7,cmd,27,[ t('',104,143,0),t(o(1,'ProcedureRolInactivo'),28,27,3) ]).
+b_line_i(144,2,7,cmd,27,[ t('',111,144,0) ]).
+b_line_i(145,2,7,cmd,27,[ t('',144,145,0) ]).
+b_line_i(147,2,7,cmd,27,[ t('',143,147,0),t('''SUBMENU''',3,147,5) ]).
+b_line_i(148,2,8,cmd,27,[ t('',107,148,0),t([ t('Vsubmenu',23,148,2),t('setempty(',1,148,12) ],31,148,2),t(')',4,27,22) ]).
+b_line_i(149,2,8,cmd,27,[ t('',107,149,0),t('Vsubmenu',23,27,0),t(=,10,27,0),t('''<ul class="treeview-menu">''',3,27,0) ]).
+b_line_i(150,2,8,cmd,27,[ t('',107,150,0),t('Ban',23,27,0),t(=,10,27,0),t('0',3,27,0) ]).
+b_line_i(151,5,1,cmd,152,[ t('',121,151,0),t('ORDER',39,151,11),t(43,2,151,17),t(',',7,151,26),t(31,2,151,27) ]).
+b_line_i(154,5,1,cmd,152,[ t('',107,154,0),t('Icon',23,152,0),t(=,10,152,0),t('''fa fa-circle-o''',3,152,0) ]).
+b_line_i(155,5,1,cmd,152,[ t('',107,155,0),t('Vsubmenu',23,152,0),t(=,10,152,0),t('Vsubmenu',23,152,0),t(+,5,152,0),t('''<li><a href="''',3,152,0),t(+,5,152,0),t('trim(',1,152,0),t(30,2,152,0),t(')',4,152,0),t(+,5,152,0),t('''"><i class="''',3,152,0),t(+,5,152,0),t('trim(',1,152,0),t('Icon',23,152,0),t(')',4,152,0),t(+,5,152,0),t('''"></i>''',3,152,0),t(+,5,152,0),t('trim(',1,152,0),t(28,2,152,0),t(')',4,152,0),t(+,5,152,0),t('''</a></li>''',3,152,0) ]).
+b_line_i(156,5,1,cmd,152,[ t('',107,156,0),t('Ban',23,152,0),t(=,10,152,0),t('1',3,152,0) ]).
+b_line_i(157,5,1,cmd,152,[ t('',128,157,0) ]).
+b_line_i(158,2,10,cmd,34,[ t('',107,158,0),t('Vsubmenu',23,34,0),t(=,10,34,0),t('Vsubmenu',23,34,0),t(+,5,34,0),t('''</ul>''',3,34,0) ]).
+b_line_i(159,2,10,cmd,34,[ t('',144,159,0) ]).
+b_line_i(1000,2,10,cmd,0,[ t('',146,0,0),t('Load',3,0,0) ]).
+b_line_i(1001,2,10,cmd,0,[ t('',155,0,0) ]).
+b_line_i(1002,2,10,cmd,0,[ t('',147,0,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,t('Script1',3)).
+html_i(3,comp(conthold)).
+html_i(4,t('Script2',3)).
+ 
+ 
+html_tags_i(1,'Class','Form').
+ 
+html_comp_i(2,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(2,'Caption','Script1',d,[ str ]).
+html_comp_i(2,'Id','Txtscript1',v,[ str ]).
+html_comp_i(2,'Class','TextBlock',d,[ str ]).
+html_comp_i(2,'Event','',d,[ str ]).
+html_comp_i(2,'Returnonclick',0,d,[ bool ]).
+html_comp_i(2,'Gxformat',2,v,[ num ]).
+html_comp_i(2,'Title','',d,[ str ]).
+html_comp_i(2,'Fill',-1,d,[ bool ]).
+html_comp_i(2,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(2,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Font','',d,[ str ]).
+html_comp_i(3,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(3,'Controlname','Contholder1',v,[ str ]).
+html_comp_i(4,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(4,'Caption','Script2',d,[ str ]).
+html_comp_i(4,'Id','Txtscript2',v,[ str ]).
+html_comp_i(4,'Class','TextBlock',d,[ str ]).
+html_comp_i(4,'Event','',d,[ str ]).
+html_comp_i(4,'Returnonclick',0,d,[ bool ]).
+html_comp_i(4,'Gxformat',2,v,[ num ]).
+html_comp_i(4,'Title','',d,[ str ]).
+html_comp_i(4,'Fill',-1,d,[ bool ]).
+html_comp_i(4,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(4,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(4,'Font','',d,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+warn_gen_i(msg([],spc0038,[ 'There is no index for order ',[ att(2,29) ],'; poor performance may be noticed',[ ' in group starting at line ','96','' ],'.' ])).
+warn_gen_i(msg([],spc0038,[ 'There is no index for order ',[ att(2,32) ],'; poor performance may be noticed',[ ' in group starting at line ','132','' ],'.' ])).
+warn_gen_i(msg([],spc0038,[ 'There is no index for order ',[ att(2,43),', ',att(2,31) ],'; poor performance may be noticed',[ ' in group starting at line ','151','' ],'.' ])).
+ 
+ 
+lit_i(2,1,t('Script1',3),[ ctlname('Txtscript1') ]).
+lit_i(3,1,comp(conthold),[ ctlname('Contholder1'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(4,1,t('Script2',3),[ ctlname('Txtscript2') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+att_prop_i(2,29,'ExternalName','MenuXPosi',d).
+att_prop_i(2,29,'ExternalNamespace','SGCS',d).
+att_prop_i(2,29,'EmptyAsNull','Yes',d).
+att_prop_i(2,29,idBasedOn,'',d).
+att_prop_i(2,29,'AUTONUMBER','0',d).
+att_prop_i(2,29,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,29,'AttRegEx','',d).
+att_prop_i(2,29,'AttValidationFailedMsg','',d).
+att_prop_i(2,29,'DownloadOffline','0',d).
+att_prop_i(2,29,'FullName','MenuXPosi',v).
+att_prop_i(2,27,'ExternalName','MenuXid',d).
+att_prop_i(2,27,'ExternalNamespace','SGCS',d).
+att_prop_i(2,27,'EmptyAsNull','Yes',d).
+att_prop_i(2,27,idBasedOn,'',d).
+att_prop_i(2,27,'AUTONUMBER','-1',v).
+att_prop_i(2,27,'AUTONUMBER_START','1',d).
+att_prop_i(2,27,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,27,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,27,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,27,'AttRegEx','',d).
+att_prop_i(2,27,'AttValidationFailedMsg','',d).
+att_prop_i(2,27,'DownloadOffline','0',d).
+att_prop_i(2,27,'FullName','MenuXid',v).
+att_prop_i(2,30,'ExternalName','MenXUrl',d).
+att_prop_i(2,30,'ExternalNamespace','SGCS',d).
+att_prop_i(2,30,'EmptyAsNull','Yes',v).
+att_prop_i(2,30,idBasedOn,'',d).
+att_prop_i(2,30,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,30,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,30,'AttRegEx','',d).
+att_prop_i(2,30,'AttValidationFailedMsg','',d).
+att_prop_i(2,30,'DownloadOffline','0',d).
+att_prop_i(2,30,'FullName','MenXUrl',v).
+att_prop_i(2,28,'ExternalName','MenuXDesc',d).
+att_prop_i(2,28,'ExternalNamespace','SGCS',d).
+att_prop_i(2,28,'EmptyAsNull','Yes',d).
+att_prop_i(2,28,idBasedOn,'',d).
+att_prop_i(2,28,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,28,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,28,'AttRegEx','',d).
+att_prop_i(2,28,'AttValidationFailedMsg','',d).
+att_prop_i(2,28,'DownloadOffline','0',d).
+att_prop_i(2,28,'FullName','MenuXDesc',v).
+att_prop_i(2,32,'ExternalName','UsuID',d).
+att_prop_i(2,32,'ExternalNamespace','SGCS',d).
+att_prop_i(2,32,'EmptyAsNull','Yes',d).
+att_prop_i(2,32,idBasedOn,'',d).
+att_prop_i(2,32,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,32,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,32,'AttRegEx','',d).
+att_prop_i(2,32,'AttValidationFailedMsg','',d).
+att_prop_i(2,32,'DownloadOffline','0',d).
+att_prop_i(2,32,'FullName','UsuID',v).
+att_prop_i(2,40,'ExternalName','RolId',d).
+att_prop_i(2,40,'ExternalNamespace','SGCS',d).
+att_prop_i(2,40,'EmptyAsNull','Yes',d).
+att_prop_i(2,40,idBasedOn,'',d).
+att_prop_i(2,40,'AUTONUMBER','-1',v).
+att_prop_i(2,40,'AUTONUMBER_START','1',d).
+att_prop_i(2,40,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,40,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,40,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,40,'AttRegEx','',d).
+att_prop_i(2,40,'AttValidationFailedMsg','',d).
+att_prop_i(2,40,'DownloadOffline','0',d).
+att_prop_i(2,40,'FullName','RolId',v).
+att_prop_i(2,33,'ExternalName','UsuImg',d).
+att_prop_i(2,33,'ExternalNamespace','SGCS',d).
+att_prop_i(2,33,'EmptyAsNull','Yes',d).
+att_prop_i(2,33,'ExternalStorage','-1',d).
+att_prop_i(2,33,idBasedOn,'',d).
+att_prop_i(2,33,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,33,'AttRegEx','',d).
+att_prop_i(2,33,'AttValidationFailedMsg','',d).
+att_prop_i(2,33,'DownloadOffline','0',d).
+att_prop_i(2,33,'FullName','UsuImg',v).
+att_prop_i(2,34,'ExternalName','UsuNomCom',d).
+att_prop_i(2,34,'ExternalNamespace','SGCS',d).
+att_prop_i(2,34,idBasedOn,'',d).
+att_prop_i(2,34,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,34,'DownloadOffline','0',d).
+att_prop_i(2,34,'FullName','UsuNomCom',v).
+att_prop_i(2,43,'ExternalName','MenXPadre',d).
+att_prop_i(2,43,'ExternalNamespace','SGCS',d).
+att_prop_i(2,43,'EmptyAsNull','Yes',d).
+att_prop_i(2,43,idBasedOn,'',d).
+att_prop_i(2,43,'AUTONUMBER','0',d).
+att_prop_i(2,43,'ATT_INITIAL_VALUE',[ t('0',3) ],v).
+att_prop_i(2,43,'AttRegEx','',d).
+att_prop_i(2,43,'AttValidationFailedMsg','',d).
+att_prop_i(2,43,'DownloadOffline','0',d).
+att_prop_i(2,43,'FullName','MenXPadre',v).
+att_prop_i(2,31,'ExternalName','MenXEst',d).
+att_prop_i(2,31,'ExternalNamespace','SGCS',d).
+att_prop_i(2,31,'EmptyAsNull','Yes',d).
+att_prop_i(2,31,idBasedOn,171,v).
+att_prop_i(2,31,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,31,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,31,'AttRegEx','',d).
+att_prop_i(2,31,'AttValidationFailedMsg','GXSPC_OutOfRange',d).
+att_prop_i(2,31,'DownloadOffline','0',d).
+att_prop_i(2,31,'FullName','MenXEst',v).
+att_prop_i(2,36,'ExternalName','UsuApe',d).
+att_prop_i(2,36,'ExternalNamespace','SGCS',d).
+att_prop_i(2,36,'EmptyAsNull','Yes',d).
+att_prop_i(2,36,idBasedOn,'',d).
+att_prop_i(2,36,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,36,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,36,'AttRegEx','',d).
+att_prop_i(2,36,'AttValidationFailedMsg','',d).
+att_prop_i(2,36,'DownloadOffline','0',d).
+att_prop_i(2,36,'FullName','UsuApe',v).
+att_prop_i(2,35,'ExternalName','UsuNom',d).
+att_prop_i(2,35,'ExternalNamespace','SGCS',d).
+att_prop_i(2,35,'EmptyAsNull','Yes',d).
+att_prop_i(2,35,idBasedOn,'',d).
+att_prop_i(2,35,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,35,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,35,'AttRegEx','',d).
+att_prop_i(2,35,'AttValidationFailedMsg','',d).
+att_prop_i(2,35,'DownloadOffline','0',d).
+att_prop_i(2,35,'FullName','UsuNom',v).
+att_prop_i(2,42,'ExternalName','UsuarioID',d).
+att_prop_i(2,42,'ExternalNamespace','SGCS',d).
+att_prop_i(2,42,'EmptyAsNull','Yes',d).
+att_prop_i(2,42,idBasedOn,'',d).
+att_prop_i(2,42,'AUTONUMBER','0',d).
+att_prop_i(2,42,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,42,'AttRegEx','',d).
+att_prop_i(2,42,'AttValidationFailedMsg','',d).
+att_prop_i(2,42,'DownloadOffline','0',d).
+att_prop_i(2,42,'FullName','UsuarioID',v).
+att_prop_i(2,40000,'ExternalName','',d).
+att_prop_i(2,40000,'ExternalNamespace','',d).
+att_prop_i(2,40000,'EmptyAsNull','Yes',d).
+att_prop_i(2,40000,idBasedOn,'',d).
+att_prop_i(2,40000,'AUTONUMBER','0',d).
+att_prop_i(2,40000,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,40000,'AttRegEx','',d).
+att_prop_i(2,40000,'AttValidationFailedMsg','',d).
+att_prop_i(2,40000,'FullName','',v).
+ 
+ 
+tbl_att_prop_i(2,10,27,'AllowNulls',n).
+tbl_att_prop_i(2,10,27,'AUTONUMBER',y).
+tbl_att_prop_i(2,10,43,'AllowNulls',n).
+tbl_att_prop_i(2,15,42,'AllowNulls',n).
+tbl_att_prop_i(2,15,32,'AllowNulls',n).
+tbl_att_prop_i(2,15,35,'AllowNulls',n).
+tbl_att_prop_i(2,15,36,'AllowNulls',n).
+tbl_att_prop_i(2,15,33,'AllowNulls',n).
+tbl_att_prop_i(2,15,40000,'AllowNulls',n).
+tbl_att_prop_i(2,15,40,'AllowNulls',n).
+ 
+var_prop_i(2,'Vmenuxid',idBasedOn,'',v).
+var_prop_i(2,'Vusuid',idBasedOn,'',v).
+var_prop_i(2,'Vusuimg',idBasedOn,'',v).
+var_prop_i(2,'Vusunomcom',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+sub_info_i(146,'Start',1,130,[ [ [ t('Httprequest',23),t('Baseurl',3) ],'Websession','Vusuimg','Vusuimg_GXI','Vusunomcom',29,31,43,'Vscript11',30,28,27,'Ban','Vsubmenu',[ t('Form',3),t('Caption',3) ],32,'Vusuid',34,33,40000,40,'Vmenuxid' ],[ 'Vusuid',[ t('Form',3),t('Headerrawhtml',3) ],'Vscript11','Vmenuxid',[ t('Txtscript1',3),t('Caption',3) ],[ t('Txtscript2',3),t('Caption',3) ],'Vusunomcom','Vusuimg','Vsubmenu','Ban' ] ]).
+ 
+pgm_parm_i(proc,20,'PROCEDUREROLINACTIVO',[],[]).
+pgm_parm_i(proc,19,'PROCEDUREROL',[],[]).
+pgm_parm_i(web,110,'LOGIN',[],[]).
+ 
+pgm_callprotocol_i(web,106,'MASTERPAGE','INTERNAL','Secure').
+pgm_callprotocol_i(proc,20,'PROCEDUREROLINACTIVO','INTERNAL','Secure').
+pgm_callprotocol_i(proc,19,'PROCEDUREROL','INTERNAL','Secure').
+pgm_callprotocol_i(web,110,'LOGIN','INTERNAL','Secure').
+ 
+ 
+pgm_main_info_i(web,110,'LOGIN',[ 15,'LOGIN','','','','','INTERNAL' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+optimize_i(4,0,[ maxrows(1) ]).
+ 
+ 
+ 
+ 
