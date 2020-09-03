@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ConnectionCollection>
+  <Connection>
+    <Name>SGCS</Name>
+    <Repository>b779c54e-4534-4b11-8b4a-f6f8ec404f05</Repository>
+    <UserName>a+RMmmyfNmisZZn+q5HmFg==</UserName>
+    <UserPassword>uySPuhz3C34W7gH2WHpbMQ==</UserPassword>
+    <Type>LAN                           </Type>
+    <Language />
+    <Properties />
+  </Connection>
+</ConnectionCollection>

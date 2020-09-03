@@ -1,0 +1,88 @@
+<?xml-stylesheet type='text/xsl' href='prgs.xsl'?><Objects>
+  <Charset>UTF-8</Charset>
+  <Path>file:///C:/Program Files (x86)/GeneXus/GeneXus16Trial/</Path>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>Home</ObjName>
+    <ObjDesc>Home</ObjDesc>
+    <ObjLink>home.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WWEstado</ObjName>
+    <ObjDesc>Work With Estado</ObjDesc>
+    <ObjLink>wwestado.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WWFase</ObjName>
+    <ObjDesc>Fases</ObjDesc>
+    <ObjLink>wwfase.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WWPrioridad</ObjName>
+    <ObjDesc>Work With Prioridad</ObjDesc>
+    <ObjLink>wwprioridad.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WWProyecto</ObjName>
+    <ObjDesc>Proyectos</ObjDesc>
+    <ObjLink>wwproyecto.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WWTarea</ObjName>
+    <ObjDesc>Tareas</ObjDesc>
+    <ObjLink>wwtarea.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WWEstadoTarea</ObjName>
+    <ObjDesc>Estado Tareas</ObjDesc>
+    <ObjLink>wwestadotarea.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WWLineaBase</ObjName>
+    <ObjDesc>Work With Linea Base</ObjDesc>
+    <ObjLink>wwlineabase.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WWMenu</ObjName>
+    <ObjDesc>Menus</ObjDesc>
+    <ObjLink>wwmenu.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>Login</ObjName>
+    <ObjDesc>Login</ObjDesc>
+    <ObjLink>login.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WWRol</ObjName>
+    <ObjDesc>Rols</ObjDesc>
+    <ObjLink>wwrol.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WWUsuario</ObjName>
+    <ObjDesc>Work With Usuario</ObjDesc>
+    <ObjLink>wwusuario.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>Dashboard</ObjName>
+    <ObjDesc>Dashboard</ObjDesc>
+    <ObjLink>dashboard.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>wpdestroyer</ObjName>
+    <ObjDesc>wpdestroyer</ObjDesc>
+    <ObjLink>wpdestroyer.aspx</ObjLink>
+  </Object>
+</Objects>

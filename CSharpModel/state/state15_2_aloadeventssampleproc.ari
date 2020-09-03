@@ -1,0 +1,32 @@
+current_obj_i(2,proc,17).
+ 
+current_guid('354f89e4-e6b2-445f-afaa-56a52acc8269').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_main_object(aloadeventssampleproc,'Load Events Sample Proc','','""','INTERNAL',default).
+ 
+ 
+ 
+ 
+ij_object_dependency(aloadeventssampleproc,[],[],[],17).
+ 
+ 
+obj_parms_i([ 'DateTime aP0_dateFrom','DateTime aP1_dateTo','SdtSchedulerEvents aP2_events' ],[ [ 'Datefrom',in ],[ 'Dateto',in ],[ 'Events',out ] ]).
+ 
+ 
+ 
+ 
+ 
+ 

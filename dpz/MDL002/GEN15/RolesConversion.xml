@@ -1,0 +1,153 @@
+
+<ReorgSpec>
+<SpecVersion>16_0_10-142546</SpecVersion>
+<Table>
+<TableId>12</TableId>
+<TableName>Roles</TableName>
+<Description>Roles</Description></Table>
+<ReorgCls>c</ReorgCls>
+<ReorgCode>pk</ReorgCode>
+<ReorgMsg>Roles needs conversion</ReorgMsg>
+<ReorgAction>#</ReorgAction>
+<TableAttributes>
+<AttrisInTable>
+<Attribute>
+<AttriId>40</AttriId>
+<AttriName>RolId</AttriName>
+<Description>Rol Id</Description>
+<TakesValueFrom>
+<Table>
+<TableId>12</TableId>
+<TableName>Roles</TableName>
+<Description>Roles</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Token>0</Token>
+<Sp></Sp>
+<Token>IF</Token>
+<Sp></Sp>
+<Token>notnumeric(</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>40</AttriId>
+<AttriName>RolId</AttriName>
+<Description>Rol Id</Description></Attribute>
+<Token>)</Token>
+<Sp></Sp>
+<Token>;</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>40</AttriId>
+<AttriName>RolId</AttriName>
+<Description>Rol Id</Description></Attribute>
+<Token>.</Token>
+<Token>tonumeric(</Token>
+<Token>)</Token>
+<Sp></Sp>
+<Token>OTHERWISE</Token></FromValue></TakesValueFrom>
+<OnPrimaryKey>Yes</OnPrimaryKey>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>Yes</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType>
+<AttriOldType>
+<DataType>V</DataType>
+<Presicion>40</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>NLS</Name>
+<Value>Yes</Value></Property></Properties></AttriOldType>
+<AttriChangeType>upd</AttriChangeType></Attribute>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>RolNom</AttriName>
+<Description>Rol Nom</Description>
+<TakesValueFrom>
+<Table>
+<TableId>12</TableId>
+<TableName>Roles</TableName>
+<Description>Roles</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>RolNom</AttriName>
+<Description>Rol Nom</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>V</DataType>
+<Presicion>40</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>NLS</Name>
+<Value>Yes</Value></Property></Properties></AttriType></Attribute></AttrisInTable>
+<AttrisNoLongerInTable></AttrisNoLongerInTable>
+<AttrisInManyTables></AttrisInManyTables></TableAttributes>
+<NavigationTree>
+<Table>
+<TableId>12</TableId>
+<TableName>Roles</TableName>
+<Description>Roles</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>40</AttriId>
+<AttriName>RolId</AttriName>
+<Description>Rol Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<TableIndices>
+<Indices>
+<Index>
+<IndexName>IROLES</IndexName>
+<IndexType>u</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>40</AttriId>
+<AttriName>RolId</AttriName>
+<Description>Rol Id</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>Yes</Clustered></Index></Indices></TableIndices>
+<FKConstraints></FKConstraints>
+<Statements>
+<Statement>CREATE TABLE [GXA0012] ([RolId] smallint NOT NULL IDENTITY(1,1), [RolNom] nvarchar(40) NOT NULL ) </Statement>
+<Statement>SET IDENTITY_INSERT [GXA0012] ON</Statement>
+<Statement>INSERT INTO [GXA0012] ([RolId], [RolNom]) SELECT CASE  WHEN ISNUMERIC([RolId])=0 THEN 0 ELSE CONVERT( DECIMAL(28,14), [RolId]) END AS GXC1, [RolNom] FROM [Roles]</Statement>
+<Statement>SET IDENTITY_INSERT [GXA0012] OFF</Statement>
+<Statement>DROP TABLE [Roles]</Statement>
+<Statement>CALL sp_rename('[GXA0012]', 'Roles')</Statement>
+<Statement>ALTER TABLE [Roles] ADD PRIMARY KEY([RolId])</Statement></Statements>
+<NeedReorganizationProgram>False</NeedReorganizationProgram>
+<Warnings></Warnings>
+<Errors></Errors></ReorgSpec>
