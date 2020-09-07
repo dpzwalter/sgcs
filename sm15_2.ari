@@ -1,0 +1,5 @@
+domain_i(165,'gxdomainactiontexts.cs').
+domain_i(169,'gxdomaingooglecharttype.cs').
+domain_i(170,'gxdomaingoogletableformatter.cs').
+domain_i(171,'gxdomainestado.cs').
+domain_i(71,'gxdomainpage.cs').
